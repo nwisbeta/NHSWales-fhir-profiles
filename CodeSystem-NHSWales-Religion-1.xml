@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="NHSWales-Religion-1"/>
+	<text>
+		<status value="generated"/>
+	</text>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://nww.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-Religion-1"/>
+	<version value="1.0.1"/>
+	<name value="Religion"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-01-18T00:00:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="The religious or other belief system affiliation of a person, as specified by the person. Where applicable, religious or other belief system affiliation code is aligned with descriptors for religious and other belief system affiliations in the following SNOMED CT reference set: 999000531000000100|Religious or other belief system affiliation."/>
+	<copyright value="&#169; 2019 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="A1"/>
+		<display value="Baha&apos;i"/>
+	</concept>
+	<concept>
+		<code value="B1"/>
+		<display value="Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B2"/>
+		<display value="Mahayana Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B3"/>
+		<display value="New Kadampa Tradition Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B4"/>
+		<display value="Nichiren Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B5"/>
+		<display value="Pure Land Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B6"/>
+		<display value="Theravada Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B7"/>
+		<display value="Tibetan Buddhist"/>
+	</concept>
+	<concept>
+		<code value="B8"/>
+		<display value="Zen Buddhist"/>
+	</concept>
+	<concept>
+		<code value="C1"/>
+		<display value="Christian"/>
+	</concept>
+	<concept>
+		<code value="C2"/>
+		<display value="Amish"/>
+	</concept>
+	<concept>
+		<code value="C3"/>
+		<display value="Anabaptist"/>
+	</concept>
+	<concept>
+		<code value="C4"/>
+		<display value="Anglican"/>
+	</concept>
+	<concept>
+		<code value="C5"/>
+		<display value="Apostolic Pentecostalist"/>
+	</concept>
+	<concept>
+		<code value="C6"/>
+		<display value="Armenian Catholic"/>
+	</concept>
+	<concept>
+		<code value="C7"/>
+		<display value="Armenian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C8"/>
+		<display value="Baptist"/>
+	</concept>
+	<concept>
+		<code value="C9"/>
+		<display value="Brethren"/>
+	</concept>
+	<concept>
+		<code value="C10"/>
+		<display value="Bulgarian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C11"/>
+		<display value="Calvinist"/>
+	</concept>
+	<concept>
+		<code value="C12"/>
+		<display value="Catholic: Not Roman Catholic"/>
+	</concept>
+	<concept>
+		<code value="C13"/>
+		<display value="Celtic Christian"/>
+	</concept>
+	<concept>
+		<code value="C14"/>
+		<display value="Celtic Orthodox Christian"/>
+	</concept>
+	<concept>
+		<code value="C15"/>
+		<display value="Chinese Evangelical Christian"/>
+	</concept>
+	<concept>
+		<code value="C16"/>
+		<display value="Christadelphian"/>
+	</concept>
+	<concept>
+		<code value="C17"/>
+		<display value="Christian Existentialist"/>
+	</concept>
+	<concept>
+		<code value="C18"/>
+		<display value="Christian Humanist"/>
+	</concept>
+	<concept>
+		<code value="C19"/>
+		<display value="Christian Scientists"/>
+	</concept>
+	<concept>
+		<code value="C20"/>
+		<display value="Christian Spiritualist"/>
+	</concept>
+	<concept>
+		<code value="C21"/>
+		<display value="Church in Wales"/>
+	</concept>
+	<concept>
+		<code value="C22"/>
+		<display value="Church of England"/>
+	</concept>
+	<concept>
+		<code value="C23"/>
+		<display value="Church of God of Prophecy"/>
+	</concept>
+	<concept>
+		<code value="C24"/>
+		<display value="Church of Ireland"/>
+	</concept>
+	<concept>
+		<code value="C25"/>
+		<display value="Church of Scotland"/>
+	</concept>
+	<concept>
+		<code value="C26"/>
+		<display value="Congregationalist"/>
+	</concept>
+	<concept>
+		<code value="C27"/>
+		<display value="Coptic Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C28"/>
+		<display value="Eastern Catholic"/>
+	</concept>
+	<concept>
+		<code value="C29"/>
+		<display value="Eastern Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C30"/>
+		<display value="Elim Pentecostalist"/>
+	</concept>
+	<concept>
+		<code value="C31"/>
+		<display value="Ethiopian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C32"/>
+		<display value="Evangelical Christian"/>
+	</concept>
+	<concept>
+		<code value="C33"/>
+		<display value="Exclusive Brethren"/>
+	</concept>
+	<concept>
+		<code value="C34"/>
+		<display value="Free Church"/>
+	</concept>
+	<concept>
+		<code value="C35"/>
+		<display value="Free Church of Scotland"/>
+	</concept>
+	<concept>
+		<code value="C36"/>
+		<display value="Free Evangelical Presbyterian"/>
+	</concept>
+	<concept>
+		<code value="C37"/>
+		<display value="Free Methodist"/>
+	</concept>
+	<concept>
+		<code value="C38"/>
+		<display value="Free Presbyterian"/>
+	</concept>
+	<concept>
+		<code value="C39"/>
+		<display value="French Protestant"/>
+	</concept>
+	<concept>
+		<code value="C40"/>
+		<display value="Greek Catholic"/>
+	</concept>
+	<concept>
+		<code value="C41"/>
+		<display value="Greek Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C42"/>
+		<display value="Independent Methodist"/>
+	</concept>
+	<concept>
+		<code value="C43"/>
+		<display value="Indian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C44"/>
+		<display value="Jehovah&apos;s Witness"/>
+	</concept>
+	<concept>
+		<code value="C45"/>
+		<display value="Judaic Christian"/>
+	</concept>
+	<concept>
+		<code value="C46"/>
+		<display value="Lutheran"/>
+	</concept>
+	<concept>
+		<code value="C47"/>
+		<display value="Mennonite"/>
+	</concept>
+	<concept>
+		<code value="C48"/>
+		<display value="Messianic Jew"/>
+	</concept>
+	<concept>
+		<code value="C49"/>
+		<display value="Methodist"/>
+	</concept>
+	<concept>
+		<code value="C50"/>
+		<display value="Moravian"/>
+	</concept>
+	<concept>
+		<code value="C51"/>
+		<display value="Mormon"/>
+	</concept>
+	<concept>
+		<code value="C52"/>
+		<display value="Nazarene Church, Synonym: Nazarene"/>
+	</concept>
+	<concept>
+		<code value="C53"/>
+		<display value="New Testament Pentacostalist"/>
+	</concept>
+	<concept>
+		<code value="C54"/>
+		<display value="Nonconformist"/>
+	</concept>
+	<concept>
+		<code value="C55"/>
+		<display value="Old Catholic"/>
+	</concept>
+	<concept>
+		<code value="C56"/>
+		<display value="Open Brethren"/>
+	</concept>
+	<concept>
+		<code value="C57"/>
+		<display value="Orthodox Christian"/>
+	</concept>
+	<concept>
+		<code value="C58"/>
+		<display value="Pentecostalist, Synonym: Pentacostal Christian"/>
+	</concept>
+	<concept>
+		<code value="C59"/>
+		<display value="Presbyterian"/>
+	</concept>
+	<concept>
+		<code value="C60"/>
+		<display value="Protestant"/>
+	</concept>
+	<concept>
+		<code value="C61"/>
+		<display value="Plymouth Brethren"/>
+	</concept>
+	<concept>
+		<code value="C62"/>
+		<display value="Quaker"/>
+	</concept>
+	<concept>
+		<code value="C63"/>
+		<display value="Rastafari"/>
+	</concept>
+	<concept>
+		<code value="C64"/>
+		<display value="Reformed Christian"/>
+	</concept>
+	<concept>
+		<code value="C65"/>
+		<display value="Reformed Presbyterian"/>
+	</concept>
+	<concept>
+		<code value="C66"/>
+		<display value="Reformed Protestant"/>
+	</concept>
+	<concept>
+		<code value="C67"/>
+		<display value="Roman Catholic"/>
+	</concept>
+	<concept>
+		<code value="C68"/>
+		<display value="Romanian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C69"/>
+		<display value="Russian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C70"/>
+		<display value="Salvation Army Member"/>
+	</concept>
+	<concept>
+		<code value="C71"/>
+		<display value="Scottish Episcopalian"/>
+	</concept>
+	<concept>
+		<code value="C72"/>
+		<display value="Serbian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C73"/>
+		<display value="Seventh Day Adventist"/>
+	</concept>
+	<concept>
+		<code value="C74"/>
+		<display value="Syrian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C75"/>
+		<display value="Ukrainian Catholic"/>
+	</concept>
+	<concept>
+		<code value="C76"/>
+		<display value="Ukrainian Orthodox"/>
+	</concept>
+	<concept>
+		<code value="C77"/>
+		<display value="Uniate Catholic"/>
+	</concept>
+	<concept>
+		<code value="C78"/>
+		<display value="Unitarian"/>
+	</concept>
+	<concept>
+		<code value="C79"/>
+		<display value="United Reform"/>
+	</concept>
+	<concept>
+		<code value="C80"/>
+		<display value="Zwinglian"/>
+	</concept>
+	<concept>
+		<code value="D1"/>
+		<display value="Hindu"/>
+	</concept>
+	<concept>
+		<code value="D2"/>
+		<display value="Advaitin Hindu"/>
+	</concept>
+	<concept>
+		<code value="D3"/>
+		<display value="Arya Samaj Hindu"/>
+	</concept>
+	<concept>
+		<code value="D4"/>
+		<display value="Shakti Hindu"/>
+	</concept>
+	<concept>
+		<code value="D5"/>
+		<display value="Shiva Hindu"/>
+	</concept>
+	<concept>
+		<code value="D6"/>
+		<display value="Vaishnava Hindu, Synonym: Hare Krishna"/>
+	</concept>
+	<concept>
+		<code value="E1"/>
+		<display value="Jain"/>
+	</concept>
+	<concept>
+		<code value="F1"/>
+		<display value="Jewish"/>
+	</concept>
+	<concept>
+		<code value="F2"/>
+		<display value="Ashkenazi Jew"/>
+	</concept>
+	<concept>
+		<code value="F3"/>
+		<display value="Haredi Jew"/>
+	</concept>
+	<concept>
+		<code value="F4"/>
+		<display value="Hasidic Jew"/>
+	</concept>
+	<concept>
+		<code value="F5"/>
+		<display value="Liberal Jew"/>
+	</concept>
+	<concept>
+		<code value="F6"/>
+		<display value="Masorti Jew"/>
+	</concept>
+	<concept>
+		<code value="F7"/>
+		<display value="Orthodox Jew"/>
+	</concept>
+	<concept>
+		<code value="F8"/>
+		<display value="Reform Jew"/>
+	</concept>
+	<concept>
+		<code value="G1"/>
+		<display value="Muslim"/>
+	</concept>
+	<concept>
+		<code value="G2"/>
+		<display value="Ahmadi"/>
+	</concept>
+	<concept>
+		<code value="G3"/>
+		<display value="Druze"/>
+	</concept>
+	<concept>
+		<code value="G4"/>
+		<display value="Ismaili Muslim"/>
+	</concept>
+	<concept>
+		<code value="G5"/>
+		<display value="Shi&apos;ite Muslim"/>
+	</concept>
+	<concept>
+		<code value="G6"/>
+		<display value="Sunni Muslim"/>
+	</concept>
+	<concept>
+		<code value="H1"/>
+		<display value="Pagan"/>
+	</concept>
+	<concept>
+		<code value="H2"/>
+		<display value="Asatruar"/>
+	</concept>
+	<concept>
+		<code value="H3"/>
+		<display value="Celtic Pagan"/>
+	</concept>
+	<concept>
+		<code value="H4"/>
+		<display value="Druid"/>
+	</concept>
+	<concept>
+		<code value="H5"/>
+		<display value="Goddess"/>
+	</concept>
+	<concept>
+		<code value="H6"/>
+		<display value="Heathen"/>
+	</concept>
+	<concept>
+		<code value="H7"/>
+		<display value="Occultist"/>
+	</concept>
+	<concept>
+		<code value="H8"/>
+		<display value="Shaman"/>
+	</concept>
+	<concept>
+		<code value="H9"/>
+		<display value="Wiccan"/>
+	</concept>
+	<concept>
+		<code value="I1"/>
+		<display value="Sikh"/>
+	</concept>
+	<concept>
+		<code value="J1"/>
+		<display value="Zoroastrian"/>
+	</concept>
+	<concept>
+		<code value="K1"/>
+		<display value="Agnostic"/>
+	</concept>
+	<concept>
+		<code value="K2"/>
+		<display value="Ancestral Worship"/>
+	</concept>
+	<concept>
+		<code value="K3"/>
+		<display value="Animist"/>
+	</concept>
+	<concept>
+		<code value="K4"/>
+		<display value="Anthroposophist"/>
+	</concept>
+	<concept>
+		<code value="K5"/>
+		<display value="Black Magic"/>
+	</concept>
+	<concept>
+		<code value="K6"/>
+		<display value="Brahma Kumari"/>
+	</concept>
+	<concept>
+		<code value="K7"/>
+		<display value="British Israelite"/>
+	</concept>
+	<concept>
+		<code value="K8"/>
+		<display value="Chondogyo"/>
+	</concept>
+	<concept>
+		<code value="K9"/>
+		<display value="Confucianist"/>
+	</concept>
+	<concept>
+		<code value="K10"/>
+		<display value="Deist"/>
+	</concept>
+	<concept>
+		<code value="K11"/>
+		<display value="Humanist"/>
+	</concept>
+	<concept>
+		<code value="K12"/>
+		<display value="Infinite Way"/>
+	</concept>
+	<concept>
+		<code value="K13"/>
+		<display value="Kabbalist"/>
+	</concept>
+	<concept>
+		<code value="K14"/>
+		<display value="Lightworker"/>
+	</concept>
+	<concept>
+		<code value="K15"/>
+		<display value="New Age Practitioner"/>
+	</concept>
+	<concept>
+		<code value="K16"/>
+		<display value="Native American Religion"/>
+	</concept>
+	<concept>
+		<code value="K17"/>
+		<display value="Pantheist"/>
+	</concept>
+	<concept>
+		<code value="K18"/>
+		<display value="Peyotist"/>
+	</concept>
+	<concept>
+		<code value="K19"/>
+		<display value="Radha Soami, Synonym: Sant Mat"/>
+	</concept>
+	<concept>
+		<code value="K20"/>
+		<display value="Religion (Other Not Listed)"/>
+	</concept>
+	<concept>
+		<code value="K21"/>
+		<display value="Santeri"/>
+	</concept>
+	<concept>
+		<code value="K22"/>
+		<display value="Satanist"/>
+	</concept>
+	<concept>
+		<code value="K23"/>
+		<display value="Scientologist"/>
+	</concept>
+	<concept>
+		<code value="K24"/>
+		<display value="Secularist"/>
+	</concept>
+	<concept>
+		<code value="K25"/>
+		<display value="Shumei"/>
+	</concept>
+	<concept>
+		<code value="K26"/>
+		<display value="Shinto"/>
+	</concept>
+	<concept>
+		<code value="K27"/>
+		<display value="Spiritualist"/>
+	</concept>
+	<concept>
+		<code value="K28"/>
+		<display value="Swedenborgian, Synonym: Neo-Christian"/>
+	</concept>
+	<concept>
+		<code value="K29"/>
+		<display value="Taoist"/>
+	</concept>
+	<concept>
+		<code value="K30"/>
+		<display value="Unitarian-Universalist"/>
+	</concept>
+	<concept>
+		<code value="K31"/>
+		<display value="Universalist"/>
+	</concept>
+	<concept>
+		<code value="K32"/>
+		<display value="Vodun"/>
+	</concept>
+	<concept>
+		<code value="K33"/>
+		<display value="Yoruba"/>
+	</concept>
+	<concept>
+		<code value="L1"/>
+		<display value="Atheist"/>
+	</concept>
+	<concept>
+		<code value="L2"/>
+		<display value="Not Religious"/>
+	</concept>
+	<concept>
+		<code value="M1"/>
+		<display value="Religion not given - PATIENT refused"/>
+	</concept>
+	<concept>
+		<code value="N1"/>
+		<display value="Patient Religion Unknown"/>
+	</concept>
+</CodeSystem>

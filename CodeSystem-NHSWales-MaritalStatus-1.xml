@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CodeSystem-NHSWales-MaritalStatus-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://nww.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-MaritalStatus-1"/>	
+	<version value="1.0.1"/>
+	<name value="Marital Status"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-01-18T00:00:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="An indicator to identify the legal marital status of a person"/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="1"/>
+		<display value="Single"/>
+	</concept>
+	<concept>
+		<code value="2"/>
+		<display value="Married"/>
+	</concept>
+	<concept>
+		<code value="3"/>
+		<display value="Civil Partner"/>
+	</concept>
+	<concept>
+		<code value="4"/>
+		<display value="Divorced"/>
+	</concept>
+	<concept>
+		<code value="5"/>
+		<display value="Person whose Civil Partnership has been dissolved"/>
+	</concept>
+	<concept>
+		<code value="6"/>
+		<display value="Widowed"/>
+	</concept>
+	<concept>
+		<code value="7"/>
+		<display value="Surviving Civil Partner"/>
+	</concept>
+	<concept>
+		<code value="8"/>
+		<display value="Separated"/>
+	</concept>
+	<concept>
+		<code value="9"/>
+		<display value="Not disclosed"/>
+	</concept>
+	<concept>
+		<code value="0"/>
+		<display value="Unknown"/>
+	</concept>	
+</CodeSystem>

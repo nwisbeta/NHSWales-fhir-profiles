@@ -1,0 +1,27 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="ValueSet-NHSWales-Religion-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-Religion-1"/>
+	<version value="1.0.1"/>
+	<name value="Religion"/>
+	<status value="draft"/>
+	<date value="2019-01-18T00:00:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="The religious or other belief system affiliation of a person, as specified by the person. Where applicable, religious or other belief system affiliation code is aligned with descriptors for religious and other belief system affiliations in the following SNOMED CT reference set: 999000531000000100|Religious or other belief system affiliation."/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<compose>
+		<include>
+			<system value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-Religion-1"/>
+		</include>
+	</compose>
+</ValueSet>
