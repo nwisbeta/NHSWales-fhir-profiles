@@ -1078,7 +1078,7 @@
       <path value="Patient.identifier" />
       <sliceName value="abuhbPasPatientIdentifier" />
       <short value="An ABUHB PAS identifier for this patient" />
-      <definition value="An Aneurin Bevan University Health Boiard PAS identifier (or CRN) for this patient " />
+      <definition value="An Aneurin Bevan University Health Board PAS identifier (or CRN) for this patient " />
       <requirements value="Patients are almost always assigned specific numerical identifiers." />
       <min value="0" />
       <max value="*" />
@@ -7726,7 +7726,7 @@
       <path value="Patient.identifier" />
       <sliceName value="abuhbPasPatientIdentifier" />
       <short value="An ABUHB PAS identifier for this patient" />
-      <definition value="An Aneurin Bevan University Health Boiard PAS identifier (or CRN) for this patient " />
+      <definition value="An Aneurin Bevan University Health Board PAS identifier (or CRN) for this patient " />
     </element>
     <element id="Patient.identifier:abuhbPasPatientIdentifier.system">
       <path value="Patient.identifier.system" />

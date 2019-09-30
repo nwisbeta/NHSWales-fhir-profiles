@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+   <id value="NHSWales-OrganisationType-1"></id>
+   <text>
+      <status value="generated"></status>
+   </text>
+   <url value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-OrganisationType-1"></url>
+   <version value="1.0.0"></version>
+   <name value="Organisation Type"></name>
+   <status value="draft"></status>
+   <date value="2019-03-05T00:00:00+00:00"></date>
+   <publisher value="NHS Wales Informatics Service"></publisher>
+   <contact>
+      <name value="Data Standards"></name>
+      <telecom>
+         <system value="email"></system>
+         <value value="data.standards@wales.nhs.uk"></value>
+         <use value="work"></use>
+      </telecom>
+   </contact>
+   <description value="Type of organisation e.g. Local Health Board, General Practitioner"></description>
+   <compose>
+      <include>
+         <system value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-OrganisationType-1"></system>
+      </include>
+   </compose>
+</ValueSet>
