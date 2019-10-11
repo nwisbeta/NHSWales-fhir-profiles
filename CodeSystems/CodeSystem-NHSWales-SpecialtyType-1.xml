@@ -1,0 +1,29 @@
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="NHSWales-CodeSystem-ConsultantSpecialtyType-1"/>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-SpecialtyType-1"/>
+	<version value="1.1.0"/>
+	<name value="Specialty Type"/>
+	<status value="draft"/>
+	<date value="2019-09-30T17:17:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="A CodeSystem that identifies the specialty as either the consultant's Main or Interest specialty function."/>
+	<copyright value="Copyright © 2019 NHS Wales Informatics Service"/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="main"/>
+		<display value="Main Specialty"/>
+	</concept>
+	<concept>
+		<code value="interest"/>
+		<display value="Interest Specialty"/>
+	</concept>
+</CodeSystem>

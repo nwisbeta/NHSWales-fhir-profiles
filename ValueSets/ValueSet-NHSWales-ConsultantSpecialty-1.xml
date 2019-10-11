@@ -1,0 +1,27 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="ValueSet-NHSWales-ConsultantSpecialty-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-ConsultantSpecialty-1"/>
+	<version value="1.0.0"/>
+	<name value="ConsulatSpecialty"/>
+	<status value="draft"/>
+	<date value="2019-09-30T22:10:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="unique code identifying each Main Specialty designated by Royal Colleges."/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<compose>
+		<include>
+			<system value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-ConsultantSpecialty-1"/>
+		</include>
+	</compose>
+</ValueSet>
