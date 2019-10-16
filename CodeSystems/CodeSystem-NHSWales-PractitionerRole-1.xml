@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CodeSystem-NHSWales-PractitionerRole-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://nww.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-PractitionerRole-1"/>	
+	<version value="1.0.0"/>
+	<name value="Practitioner Role"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-10-14T16:39:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="The role of the practitioner"/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="10"/>
+		<display value="Arts Therapist (Art, Music and Drama Therapists)"/>
+	</concept>
+	<concept>
+		<code value="20"/>
+		<display value="Biomedical Scientist"/>
+	</concept>
+	<concept>
+		<code value="30"/>
+		<display value="Chiropodist / Podiatrist"/>
+	</concept>
+	<concept>
+		<code value="40"/>
+		<display value="Chiropractor"/>
+	</concept>
+	<concept>
+		<code value="50"/>
+		<display value="Clinical Scientist"/>
+	</concept>
+	<concept>
+		<code value="60"/>
+		<display value="CONSULTANT"/>
+	</concept>
+	<concept>
+		<code value="70"/>
+		<display value="Clinical Dental Technician"/>
+	</concept>
+	<concept>
+		<code value="80"/>
+		<display value="Dental Hygienist"/>
+	</concept>
+	<concept>
+		<code value="90"/>
+		<display value="Dental Nurse"/>
+	</concept>
+	<concept>
+		<code value="100"/>
+		<display value="Dental Technician"/>
+	</concept>
+	<concept>
+		<code value="110"/>
+		<display value="Dental Therapist"/>
+	</concept>
+	<concept>
+		<code value="120"/>
+		<display value="Orthodontic Therapist"/>
+	</concept>
+	<concept>
+		<code value="130"/>
+		<display value="Dietitian"/>
+	</concept>
+	<concept>
+		<code value="140"/>
+		<display value="Dispensing Optician"/>
+	</concept>
+	<concept>
+		<code value="150"/>
+		<display value="GENERAL DENTAL PRACTITIONER"/>
+	</concept>
+	<concept>
+		<code value="160"/>
+		<display value="GENERAL MEDICAL PRACTITIONER"/>
+	</concept>
+	<concept>
+		<code value="170"/>
+		<display value="MIDWIFE"/>
+	</concept>
+	<concept>
+		<code value="180"/>
+		<display value="NURSE"/>
+	</concept>
+	<concept>
+		<code value="190"/>
+		<display value="Occupational Therapist"/>
+	</concept>
+	<concept>
+		<code value="200"/>
+		<display value="Operating Department Practitioner"/>
+	</concept>
+	<concept>
+		<code value="210"/>
+		<display value="OPHTHALMIC MEDICAL PRACTITIONER "/>
+	</concept>
+	<concept>
+		<code value="220"/>
+		<display value="OPTOMETRIST "/>
+	</concept>
+	<concept>
+		<code value="230"/>
+		<display value="Orthoptist"/>
+	</concept>
+	<concept>
+		<code value="240"/>
+		<display value="Orthotist"/>
+	</concept>
+	<concept>
+		<code value="250"/>
+		<display value="Osteopath"/>
+	</concept>
+	<concept>
+		<code value="260"/>
+		<display value="Paramedic"/>
+	</concept>
+	<concept>
+		<code value="270"/>
+		<display value="Pharmacist"/>
+	</concept>
+	<concept>
+		<code value="280"/>
+		<display value="Physiotherapist"/>
+	</concept>
+	<concept>
+		<code value="290"/>
+		<display value="Practitioner Psychologist"/>
+	</concept>
+	<concept>
+		<code value="300"/>
+		<display value="Prosthetist"/>
+	</concept>
+	<concept>
+		<code value="310"/>
+		<display value="Radiographer"/>
+	</concept>
+	<concept>
+		<code value="320"/>
+		<display value="Specialist Community Public Health Nurse: Family Health Nurse"/>
+	</concept>
+	<concept>
+		<code value="330"/>
+		<display value="Specialist Community Public Health Nurse: Health Visitor"/>
+	</concept>
+	<concept>
+		<code value="340"/>
+		<display value="Specialist Community Public Health Nurse: Occupational Health Nurse"/>
+	</concept>
+	<concept>
+		<code value="350"/>
+		<display value="Specialist Community Public Health Nurse: School Nurse"/>
+	</concept>
+	<concept>
+		<code value="360"/>
+		<display value="Speech and Language Therapist"/>
+	</concept>
+	<concept>
+		<code value="370"/>
+		<display value="Hearing Aid Dispenser"/>
+	</concept>
+	<concept>
+		<code value="380"/>
+		<display value="Pharmacy Technician"/>
+	</concept>
+	<concept>
+		<code value="390"/>
+		<display value="Social Worker in England"/>
+	</concept>
+	<concept>
+		<code value="XXX"/>
+		<display value="Other (not listed)"/>
+	</concept>
+
+</CodeSystem>

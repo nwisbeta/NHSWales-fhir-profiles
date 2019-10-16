@@ -554,7 +554,7 @@
       <short value="Practitioner that is able to provide the defined services for the organation" />
       <definition value="Practitioner that is able to provide the defined services for the organation." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <base>
         <path value="PractitionerRole.practitioner" />
@@ -599,7 +599,7 @@
       <short value="Organization where the roles are available" />
       <definition value="The organization where the Practitioner performs the roles associated." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <base>
         <path value="PractitionerRole.organization" />
@@ -641,13 +641,6 @@
     </element>
     <element id="PractitionerRole.code">
       <path value="PractitionerRole.code" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.code" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
       <short value="Roles which this practitioner may perform" />
       <definition value="Roles which this practitioner is authorized to perform for the organization." />
       <comment value="A person may have more than one role. At least one role is required." />
@@ -678,69 +671,7 @@
         <strength value="example" />
         <description value="The role a person plays representing an organization" />
         <valueSetReference>
-          <reference value="http://hl7.org/fhir/ValueSet/practitioner-role" />
-        </valueSetReference>
-      </binding>
-      <mapping>
-        <identity value="rim" />
-        <map value="n/a" />
-      </mapping>
-      <mapping>
-        <identity value="v2" />
-        <map value="CE/CNE/CWE" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value="CD" />
-      </mapping>
-      <mapping>
-        <identity value="orim" />
-        <map value="fhir:CodeableConcept rdfs:subClassOf dt:CD" />
-      </mapping>
-      <mapping>
-        <identity value="v2" />
-        <map value="PRD-1 / STF-18  / PRA-3  / PRT-4  / ROL-3 / ORC-12 / OBR-16 / PV1-7 / PV1-8 / PV1-9 / PV1-17" />
-      </mapping>
-      <mapping>
-        <identity value="rim" />
-        <map value=".code" />
-      </mapping>
-      <mapping>
-        <identity value="servd" />
-        <map value="(ServD maps Practitioners and Organizations via another entity, so this concept is not available)" />
-      </mapping>
-    </element>
-    <element id="PractitionerRole.code:sdsJobRoleName">
-      <path value="PractitionerRole.code" />
-      <sliceName value="sdsJobRoleName" />
-      <short value="Roles which this practitioner may perform" />
-      <definition value="Roles which this practitioner is authorized to perform for the organization." />
-      <comment value="A person may have more than one role. At least one role is required." />
-      <requirements value="Need to know what authority the practitioner has - what can they do?" />
-      <min value="0" />
-      <max value="*" />
-      <base>
-        <path value="PractitionerRole.code" />
-        <min value="0" />
-        <max value="*" />
-      </base>
-      <type>
-        <code value="CodeableConcept" />
-      </type>
-      <condition value="ele-1" />
-      <constraint>
-        <key value="ele-1" />
-        <severity value="error" />
-        <human value="All FHIR elements must have a @value or children" />
-        <expression value="hasValue() or (children().count() &gt; id.count())" />
-        <xpath value="@value|f:*|h:div" />
-      </constraint>
-      <isSummary value="true" />
-      <binding>
-        <strength value="required" />
-        <description value="The role a person plays representing an organization" />
-        <valueSetReference>
-          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SDSJobRoleName-1" />
+          <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-PractitionerRole-1" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -797,9 +728,6 @@
       </constraint>
       <isSummary value="true" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="PractitionerSpecialty" />
-        </extension>
         <strength value="required" />
         <description value="Specific specialty associated with the agency" />
         <valueSetReference>
@@ -1584,7 +1512,6 @@
   <differential>
     <element id="PractitionerRole.practitioner">
       <path value="PractitionerRole.practitioner" />
-      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Practitioner-1" />
@@ -1592,7 +1519,6 @@
     </element>
     <element id="PractitionerRole.organization">
       <path value="PractitionerRole.organization" />
-      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Organization-1" />
@@ -1600,30 +1526,19 @@
     </element>
     <element id="PractitionerRole.code">
       <path value="PractitionerRole.code" />
-      <slicing>
-        <discriminator>
-          <type value="value" />
-          <path value="coding.code" />
-        </discriminator>
-        <rules value="open" />
-      </slicing>
-    </element>
-    <element id="PractitionerRole.code:sdsJobRoleName">
-      <path value="PractitionerRole.code" />
-      <sliceName value="sdsJobRoleName" />
       <binding>
-        <strength value="required" />
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="PractitionerRole" />
+        </extension>
+        <strength value="example" />
         <valueSetReference>
-          <reference value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-SDSJobRoleName-1" />
+          <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-PractitionerRole-1" />
         </valueSetReference>
       </binding>
     </element>
     <element id="PractitionerRole.specialty">
       <path value="PractitionerRole.specialty" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="PractitionerSpecialty" />
-        </extension>
         <strength value="required" />
         <valueSetReference>
           <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-ConsultantSpecialty-1" />

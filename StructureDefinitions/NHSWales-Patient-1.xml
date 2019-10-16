@@ -348,7 +348,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -434,7 +434,7 @@
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -1078,7 +1078,7 @@
       <path value="Patient.identifier" />
       <sliceName value="abuhbPasPatientIdentifier" />
       <short value="An ABUHB PAS identifier for this patient" />
-      <definition value="An Aneurin Bevan University Health Board PAS identifier (or CRN) for this patient " />
+      <definition value="An Aneurin Bevan University Health Board PAS identifier (or CRN) for this patient" />
       <requirements value="Patients are almost always assigned specific numerical identifiers." />
       <min value="0" />
       <max value="*" />
@@ -7649,6 +7649,7 @@
       <sliceName value="religion" />
       <short value="The patient's religion" />
       <definition value="This extension is constrained to represent the religious or other belief system affiliation of a person, as specified by the person." />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-Religion-1" />
@@ -7670,6 +7671,7 @@
       <short value="The patient's ethnicity" />
       <definition value="This extension is constrained to represent the ethnicity of a person, as specified by the person." />
       <comment value="This extension is constrained to represent the ethnicity of a person, as specified by the person." />
+      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-Ethnicity-1" />
@@ -7726,7 +7728,7 @@
       <path value="Patient.identifier" />
       <sliceName value="abuhbPasPatientIdentifier" />
       <short value="An ABUHB PAS identifier for this patient" />
-      <definition value="An Aneurin Bevan University Health Board PAS identifier (or CRN) for this patient " />
+      <definition value="An Aneurin Bevan University Health Board PAS identifier (or CRN) for this patient" />
     </element>
     <element id="Patient.identifier:abuhbPasPatientIdentifier.system">
       <path value="Patient.identifier.system" />

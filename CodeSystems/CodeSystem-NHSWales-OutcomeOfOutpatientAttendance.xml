@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-NHSWales-OutcomeOfOutpatientAttendance-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://www.datadictionary.wales.nhs.uk/#!WordDocuments/outcomeofattendance.htm"/>
+	</extension>
+    <url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-OutcomeOfOutpatientAttendance-1"/>	
+    <version value="1.0.0"/>
+    <name value="Outcome of Outpatient Attendance"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-03-05T00:00:00+00:00"/>
+    <publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+    <description value="This records the outcome of the Outpatient Attendance"/>
+    <copyright value="© 2019 NHS Wales Informatics Service."/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="4"/>
+        <display value="Referral to Treatment Period Start Point"/>
+    </concept>
+    <concept>
+        <code value="5"/>
+        <display value="Referral to Treatment Period Stop Point"/>
+    </concept>
+    <concept>
+        <code value="6"/>
+        <display value="Referral to Treatment Continuation of Status"/>
+    </concept>
+	<concept>
+        <code value="9"/>
+        <display value="Specialty Not Subject to Referral to Treatment Times Measurement"/>
+    </concept>    
+</CodeSystem>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CodeSystem-NHSWales-EmergencyDepartmentAttendanceCategory-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://www.datadictionary.wales.nhs.uk/#!WordDocuments/outcomeofattendance.htm"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-EmergencyDepartmentAttendanceCategory-1"/>	
+	<version value="1.0.0"/>
+	<name value="Emergency Department Attendance Category"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-03-05T00:00:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="Accident and Emergency Attendance Category is an indication of whether a patient is making a first or follow-up attendance at the Accident and Emergency Department."/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="01"/>
+		<display value="New Attendance"/>
+	</concept>
+	<concept>
+		<code value="02"/>
+		<display value="Planned Follow-up"/>
+	</concept>
+	<concept>
+		<code value="03"/>
+		<display value="Unplanned Follow-up"/>
+	</concept>
+</CodeSystem>
