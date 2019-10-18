@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
   <id value="Extension-NHSWales-TreatmentSpecialty-1" />
-  <url value="http://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-TreatmentSpecialty-1" />
+  <url value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-TreatmentSpecialty-1" />
   <version value="1.0.0" />
   <name value="Extension-NHSWales-TreatmentSpecialty-1" />
   <status value="draft" />
+  <date value="2019-10-16" />
   <publisher value="NHS Wales Informatics Service" />
   <contact>
     <name value="Data Standards" />
@@ -14,7 +15,7 @@
       <use value="work" />
     </telecom>
   </contact>
-  <description value="This extension is used to record the Treatment Specialty of an encounter" />
+  <description value="This is the specialty under which the patient will be or is treated." />
   <copyright value="© 2019 NHS Wales Informatics Service." />
   <fhirVersion value="3.0.1" />
   <kind value="complex-type" />
@@ -27,13 +28,23 @@
   <snapshot>
     <element id="Extension">
       <path value="Extension" />
-      <short value="A code used to record the Treatment Specialty of an attendance." />
-      <definition value="A code used to record the Treatment Specialty of an attendance." />
+      <short value="Optional Extensions Element" />
+      <definition value="Optional Extension Element - found in all resources." />
+      <min value="0" />
+      <max value="1" />
       <base>
         <path value="Element" />
         <min value="0" />
         <max value="*" />
       </base>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+      </constraint>
       <constraint>
         <key value="ext-1" />
         <severity value="error" />
@@ -41,6 +52,10 @@
         <expression value="extension.exists() != value.exists()" />
         <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
       </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
       <mapping>
         <identity value="rim" />
         <map value="N/A" />
@@ -161,10 +176,10 @@
     <element id="Extension.value[x]:valueCodeableConcept">
       <path value="Extension.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
-      <short value="Treatment Specialty" />
-      <definition value="This is the specialty under which the patient will be or is treated. This may either be the same as the specialty function recorded as the consultant's main specialty or a different specialty function which will be the consultant's interest specialty function. Note that both the main specialty function and the interest specialty function should be based on one of the Royal College specialties." />
+      <short value="Value of extension" />
+      <definition value="Value of extension - may be a resource or one of a constrained set of the data types (see Extensibility in the spec for list)." />
       <comment value="A stream of bytes, base64 encoded" />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="Extension.value[x]" />
@@ -184,8 +199,8 @@
       </constraint>
       <binding>
         <strength value="required" />
-        <description value="A code used to record the Treatment Specialty of an attendance." />
-        <valueSetUri value="http://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-TreatmentSpecialty-1" />
+        <description value="This is the specialty under which the patient will be or is treated." />
+        <valueSetUri value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-TreatmentSpecialty-1" />
       </binding>
       <mapping>
         <identity value="rim" />
@@ -200,19 +215,7 @@
   <differential>
     <element id="Extension">
       <path value="Extension" />
-      <short value="A code used to record the Treatment Specialty of an attendance." />
-      <definition value="A code used to record the Treatment Specialty of an attendance." />
-      <constraint>
-        <key value="ext-1" />
-        <severity value="error" />
-        <human value="Must have either extensions or value[x], not both" />
-        <expression value="extension.exists() != value.exists()" />
-        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
-      </constraint>
-      <mapping>
-        <identity value="rim" />
-        <map value="N/A" />
-      </mapping>
+      <max value="1" />
     </element>
     <element id="Extension.url">
       <path value="Extension.url" />
@@ -221,15 +224,14 @@
     <element id="Extension.value[x]:valueCodeableConcept">
       <path value="Extension.valueCodeableConcept" />
       <sliceName value="valueCodeableConcept" />
-      <short value="Treatment Specialty" />
-      <definition value="This is the specialty under which the patient will be or is treated. This may either be the same as the specialty function recorded as the consultant's main specialty or a different specialty function which will be the consultant's interest specialty function. Note that both the main specialty function and the interest specialty function should be based on one of the Royal College specialties." />
+      <min value="1" />
       <type>
         <code value="CodeableConcept" />
       </type>
       <binding>
         <strength value="required" />
-        <description value="A code used to record the Treatment Specialty of an attendance." />
-        <valueSetUri value="http://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-TreatmentSpecialty-1" />
+        <description value="This is the specialty under which the patient will be or is treated." />
+        <valueSetUri value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-TreatmentSpecialty-1" />
       </binding>
     </element>
   </differential>

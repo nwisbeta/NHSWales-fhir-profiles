@@ -405,7 +405,7 @@
       <short value="Identifies this organization across multiple systems" />
       <definition value="Identifier for the organization that is used to identify the organization across multiple disparate systems." />
       <requirements value="Organizations are known by a variety of ids. Some institutions maintain several, and most collect identifiers for exchange with other organizations concerning the organization." />
-      <min value="0" />
+      <min value="1" />
       <max value="*" />
       <base>
         <path value="Organization.identifier" />
@@ -1696,6 +1696,7 @@
         <rules value="open" />
       </slicing>
       <short value="Identifies this organization across multiple systems" />
+      <min value="1" />
     </element>
     <element id="Organization.identifier:odsCode">
       <path value="Organization.identifier" />

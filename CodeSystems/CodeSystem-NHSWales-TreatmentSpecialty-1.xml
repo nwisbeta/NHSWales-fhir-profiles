@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CodeSystem-NHSWales-TreatmentSpecialty-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://nww.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-TreatmentSpecialty-1"/>	
+	<version value="1.0.0"/>
+	<name value="Treatment Specialty"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-10-16T14:06:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="This is the specialty under which the patient will be or is treated."/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="100"/>
+		<display value="General Surgery"/>
+	</concept>
+	<concept>
+		<code value="101"/>
+		<display value="Urology"/>
+	</concept>
+	<concept>
+		<code value="102"/>
+		<display value="Transplantation Surgery"/>
+	</concept>
+	<concept>
+		<code value="103"/>
+		<display value="Breast Surgery"/>
+	</concept>
+	<concept>
+		<code value="104"/>
+		<display value="Colorectal Surgery"/>
+	</concept>
+	<concept>
+		<code value="105"/>
+		<display value="Hepatobiliary &amp;amp; Pancreatic Surgery"/>
+	</concept>
+	<concept>
+		<code value="106"/>
+		<display value="Upper Gastrointestinal Surgery"/>
+	</concept>
+	<concept>
+		<code value="107"/>
+		<display value="Vascular Surgery"/>
+	</concept>
+	<concept>
+		<code value="108"/>
+		<display value="Spinal Surgery Service"/>
+	</concept>
+	<concept>
+		<code value="110"/>
+		<display value="Trauma &amp; Orthopaedics"/>
+	</concept>
+	<concept>
+		<code value="120"/>
+		<display value="ENT"/>
+	</concept>
+	<concept>
+		<code value="130"/>
+		<display value="Ophthalmology"/>
+	</concept>
+	<concept>
+		<code value="140"/>
+		<display value="Oral Surgery"/>
+	</concept>
+	<concept>
+		<code value="141"/>
+		<display value="Restorative Dentistry"/>
+	</concept>
+	<concept>
+		<code value="142"/>
+		<display value="Paediatric Dentistry"/>
+	</concept>
+	<concept>
+		<code value="143"/>
+		<display value="Orthodontics"/>
+	</concept>
+	<concept>
+		<code value="144"/>
+		<display value="Maxillo-Facial Surgery"/>
+	</concept>
+	<concept>
+		<code value="150"/>
+		<display value="Neurosurgery"/>
+	</concept>
+	<concept>
+		<code value="160"/>
+		<display value="Plastic Surgery"/>
+	</concept>
+	<concept>
+		<code value="161"/>
+		<display value="Burns Care"/>
+	</concept>
+	<concept>
+		<code value="170"/>
+		<display value="Cardiothoracic Surgery"/>
+	</concept>
+	<concept>
+		<code value="171"/>
+		<display value="Paediatric Surgery"/>
+	</concept>
+	<concept>
+		<code value="172"/>
+		<display value="Cardiac Surgery"/>
+	</concept>
+	<concept>
+		<code value="173"/>
+		<display value="Thoracic Surgery"/>
+	</concept>
+	<concept>
+		<code value="174"/>
+		<display value="Cardiothoracic Transplantation"/>
+	</concept>
+	<concept>
+		<code value="180"/>
+		<display value="Accident &amp; Emergency"/>
+	</concept>
+	<concept>
+		<code value="190"/>
+		<display value="Anaesthetics"/>
+	</concept>
+	<concept>
+		<code value="191"/>
+		<display value="Pain Management"/>
+	</concept>
+	<concept>
+		<code value="192"/>
+		<display value="Critical Care Medicine"/>
+	</concept>
+	<concept>
+		<code value="211"/>
+		<display value="Paediatric Urology"/>
+	</concept>
+	<concept>
+		<code value="212"/>
+		<display value="Paediatric Transplantation Surgery"/>
+	</concept>
+	<concept>
+		<code value="213"/>
+		<display value="Paediatric Gastrointestinal Surgery"/>
+	</concept>
+	<concept>
+		<code value="214"/>
+		<display value="Paediatric Trauma And Orthopaedics"/>
+	</concept>
+	<concept>
+		<code value="215"/>
+		<display value="Paediatric Ear Nose And Throat"/>
+	</concept>
+	<concept>
+		<code value="216"/>
+		<display value="Paediatric Ophthalmology"/>
+	</concept>
+	<concept>
+		<code value="217"/>
+		<display value="Paediatric Maxillo-Facial Surgery"/>
+	</concept>
+	<concept>
+		<code value="218"/>
+		<display value="Paediatric Neurosurgery"/>
+	</concept>
+	<concept>
+		<code value="219"/>
+		<display value="Paediatric Plastic Surgery"/>
+	</concept>
+	<concept>
+		<code value="220"/>
+		<display value="Paediatric Burns Care"/>
+	</concept>
+	<concept>
+		<code value="221"/>
+		<display value="Paediatric Cardiac Surgery"/>
+	</concept>
+	<concept>
+		<code value="222"/>
+		<display value="Paediatric Thoracic Surgery"/>
+	</concept>
+	<concept>
+		<code value="223"/>
+		<display value="Paediatric Epilepsy"/>
+	</concept>
+	<concept>
+		<code value="241"/>
+		<display value="Paediatric Pain Management"/>
+	</concept>
+	<concept>
+		<code value="242"/>
+		<display value="Paediatric Intensive Care"/>
+	</concept>
+	<concept>
+		<code value="251"/>
+		<display value="Paediatric Gastroenterology"/>
+	</concept>
+	<concept>
+		<code value="252"/>
+		<display value="Paediatric Endocrinology"/>
+	</concept>
+	<concept>
+		<code value="253"/>
+		<display value="Paediatric Clinical Haematology"/>
+	</concept>
+	<concept>
+		<code value="254"/>
+		<display value="Paediatric Audiological Medicine"/>
+	</concept>
+	<concept>
+		<code value="255"/>
+		<display value="Paediatric Clinical Immunology And Allergy Service"/>
+	</concept>
+	<concept>
+		<code value="256"/>
+		<display value="Paediatric Infectious Diseases"/>
+	</concept>
+	<concept>
+		<code value="257"/>
+		<display value="Paediatric Dermatology"/>
+	</concept>
+	<concept>
+		<code value="258"/>
+		<display value="Paediatric Respiratory Medicine"/>
+	</concept>
+	<concept>
+		<code value="259"/>
+		<display value="Paediatric Nephrology"/>
+	</concept>
+	<concept>
+		<code value="260"/>
+		<display value="Paediatric Medical Oncology"/>
+	</concept>
+	<concept>
+		<code value="261"/>
+		<display value="Paediatric Metabolic Disease"/>
+	</concept>
+	<concept>
+		<code value="262"/>
+		<display value="Paediatric Rheumatology"/>
+	</concept>
+	<concept>
+		<code value="263"/>
+		<display value="Paediatric Diabetic Medicine"/>
+	</concept>
+	<concept>
+		<code value="264"/>
+		<display value="Paediatric Cystic Fibrosis"/>
+	</concept>
+	<concept>
+		<code value="280"/>
+		<display value="Paediatric Interventional Radiology"/>
+	</concept>
+	<concept>
+		<code value="290"/>
+		<display value="Community Paediatrics"/>
+	</concept>
+	<concept>
+		<code value="291"/>
+		<display value="Paediatric Neuro-Disability"/>
+	</concept>
+	<concept>
+		<code value="300"/>
+		<display value="General Medicine"/>
+	</concept>
+	<concept>
+		<code value="301"/>
+		<display value="Gastroenterology"/>
+	</concept>
+	<concept>
+		<code value="302"/>
+		<display value="Endocrinology"/>
+	</concept>
+	<concept>
+		<code value="303"/>
+		<display value="Clinical Haematology"/>
+	</concept>
+	<concept>
+		<code value="304"/>
+		<display value="Clinical Physiology"/>
+	</concept>
+	<concept>
+		<code value="305"/>
+		<display value="Clinical Pharmacology"/>
+	</concept>
+	<concept>
+		<code value="306"/>
+		<display value="Hepatology"/>
+	</concept>
+	<concept>
+		<code value="307"/>
+		<display value="Diabetic Medicine"/>
+	</concept>
+	<concept>
+		<code value="308"/>
+		<display value="Blood And Marrow Transplantation"/>
+	</concept>
+	<concept>
+		<code value="309"/>
+		<display value="Haemophilia Service"/>
+	</concept>
+	<concept>
+		<code value="310"/>
+		<display value="Audiological Medicine"/>
+	</concept>
+	<concept>
+		<code value="311"/>
+		<display value="Clinical Genetics"/>
+	</concept>
+	<concept>
+		<code value="313"/>
+		<display value="Clinical Immunology and Allergy"/>
+	</concept>
+	<concept>
+		<code value="314"/>
+		<display value="Rehabilitation Service"/>
+	</concept>
+	<concept>
+		<code value="315"/>
+		<display value="Palliative Medicine"/>
+	</concept>
+	<concept>
+		<code value="316"/>
+		<display value="Clinical Immunology"/>
+	</concept>
+	<concept>
+		<code value="317"/>
+		<display value="Allergy Service"/>
+	</concept>
+	<concept>
+		<code value="318"/>
+		<display value="Intermediate Care"/>
+	</concept>
+	<concept>
+		<code value="319"/>
+		<display value="Respite Care"/>
+	</concept>
+	<concept>
+		<code value="320"/>
+		<display value="Cardiology"/>
+	</concept>
+	<concept>
+		<code value="321"/>
+		<display value="Paediatric Cardiology"/>
+	</concept>
+	<concept>
+		<code value="322"/>
+		<display value="Clinical Microbiology"/>
+	</concept>
+	<concept>
+		<code value="323"/>
+		<display value="Spinal Injuries"/>
+	</concept>
+	<concept>
+		<code value="324"/>
+		<display value="Anticoagulant Service"/>
+	</concept>
+	<concept>
+		<code value="325"/>
+		<display value="Sport And Exercise Medicine"/>
+	</concept>
+	<concept>
+		<code value="327"/>
+		<display value="Cardiac Rehabilitation"/>
+	</concept>
+	<concept>
+		<code value="328"/>
+		<display value="Stroke Medicine"/>
+	</concept>
+	<concept>
+		<code value="329"/>
+		<display value="Transient Ischaemic Attack"/>
+	</concept>
+	<concept>
+		<code value="330"/>
+		<display value="Dermatology"/>
+	</concept>
+	<concept>
+		<code value="331"/>
+		<display value="Congenital Heart Disease Service"/>
+	</concept>
+	<concept>
+		<code value="340"/>
+		<display value="Respiratory Medicine"/>
+	</concept>
+	<concept>
+		<code value="341"/>
+		<display value="Respiratory Physiology"/>
+	</concept>
+	<concept>
+		<code value="342"/>
+		<display value="Programmed Pulmonary Rehabilitation"/>
+	</concept>
+	<concept>
+		<code value="343"/>
+		<display value="Adult Cystic Fibrosis Service"/>
+	</concept>
+	<concept>
+		<code value="344"/>
+		<display value="Complex Specialised Rehabilitation Service"/>
+	</concept>
+	<concept>
+		<code value="345"/>
+		<display value="Specialist Rehabilitation Service"/>
+	</concept>
+	<concept>
+		<code value="346"/>
+		<display value="Local Specialist Rehabilitation Service"/>
+	</concept>
+	<concept>
+		<code value="350"/>
+		<display value="Infectious Diseases"/>
+	</concept>
+	<concept>
+		<code value="352"/>
+		<display value="Tropical Medicine"/>
+	</concept>
+	<concept>
+		<code value="360"/>
+		<display value="Genitourinary Medicine"/>
+	</concept>
+	<concept>
+		<code value="361"/>
+		<display value="Nephrology"/>
+	</concept>
+	<concept>
+		<code value="370"/>
+		<display value="Medical Oncology"/>
+	</concept>
+	<concept>
+		<code value="371"/>
+		<display value="Nuclear Medicine"/>
+	</concept>
+	<concept>
+		<code value="400"/>
+		<display value="Neurology"/>
+	</concept>
+	<concept>
+		<code value="401"/>
+		<display value="Clinical Neurophysiology"/>
+	</concept>
+	<concept>
+		<code value="410"/>
+		<display value="Rheumatology"/>
+	</concept>
+	<concept>
+		<code value="420"/>
+		<display value="Paediatrics"/>
+	</concept>
+	<concept>
+		<code value="421"/>
+		<display value="Paediatric Neurology"/>
+	</concept>
+	<concept>
+		<code value="422"/>
+		<display value="Neonatology"/>
+	</concept>
+	<concept>
+		<code value="424"/>
+		<display value="Well Babies"/>
+	</concept>
+	<concept>
+		<code value="430"/>
+		<display value="Geriatric Medicine"/>
+	</concept>
+	<concept>
+		<code value="450"/>
+		<display value="Dental Medicine Specialties"/>
+	</concept>
+	<concept>
+		<code value="460"/>
+		<display value="Medical Ophthalmology"/>
+	</concept>
+	<concept>
+		<code value="501"/>
+		<display value="Obstetrics"/>
+	</concept>
+	<concept>
+		<code value="502"/>
+		<display value="Gynaecology"/>
+	</concept>
+	<concept>
+		<code value="503"/>
+		<display value="Gynaecological Oncology"/>
+	</concept>
+	<concept>
+		<code value="560"/>
+		<display value="Midwifery Service"/>
+	</concept>
+	<concept>
+		<code value="650"/>
+		<display value="Physiotherapy"/>
+	</concept>
+	<concept>
+		<code value="651"/>
+		<display value="Occupational Therapy"/>
+	</concept>
+	<concept>
+		<code value="652"/>
+		<display value="Speech And Language Therapy"/>
+	</concept>
+	<concept>
+		<code value="653"/>
+		<display value="Podiatry"/>
+	</concept>
+	<concept>
+		<code value="654"/>
+		<display value="Dietetics"/>
+	</concept>
+	<concept>
+		<code value="655"/>
+		<display value="Orthoptics"/>
+	</concept>
+	<concept>
+		<code value="656"/>
+		<display value="Clinical Psychology"/>
+	</concept>
+	<concept>
+		<code value="657"/>
+		<display value="Prosthetics"/>
+	</concept>
+	<concept>
+		<code value="658"/>
+		<display value="Orthotics"/>
+	</concept>
+	<concept>
+		<code value="659"/>
+		<display value="Drama Therapy"/>
+	</concept>
+	<concept>
+		<code value="660"/>
+		<display value="Art Therapy"/>
+	</concept>
+	<concept>
+		<code value="661"/>
+		<display value="Music Therapy"/>
+	</concept>
+	<concept>
+		<code value="662"/>
+		<display value="Optometry"/>
+	</concept>
+	<concept>
+		<code value="663"/>
+		<display value="Podiatric Surgery"/>
+	</concept>
+	<concept>
+		<code value="700"/>
+		<display value="Learning Disability"/>
+	</concept>
+	<concept>
+		<code value="710"/>
+		<display value="Adult Mental Illness"/>
+	</concept>
+	<concept>
+		<code value="711"/>
+		<display value="Child &amp; Adolescent Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="712"/>
+		<display value="Forensic Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="713"/>
+		<display value="Psychotherapy"/>
+	</concept>
+	<concept>
+		<code value="715"/>
+		<display value="Old Age Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="720"/>
+		<display value="Eating Disorders"/>
+	</concept>
+	<concept>
+		<code value="721"/>
+		<display value="Addiction Services"/>
+	</concept>
+	<concept>
+		<code value="722"/>
+		<display value="Liaison Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="723"/>
+		<display value="Psychiatric Intensive Care"/>
+	</concept>
+	<concept>
+		<code value="724"/>
+		<display value="Perinatal Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="725"/>
+		<display value="Mental Health Recovery And Rehabilitation Service"/>
+	</concept>
+	<concept>
+		<code value="726"/>
+		<display value="Mental Health Dual Diagnosis Service"/>
+	</concept>
+	<concept>
+		<code value="727"/>
+		<display value="Dementia Assessment Service"/>
+	</concept>
+	<concept>
+		<code value="800"/>
+		<display value="Clinical Oncology (previously Radiotherapy)"/>
+	</concept>
+	<concept>
+		<code value="811"/>
+		<display value="Interventional Radiology"/>
+	</concept>
+	<concept>
+		<code value="812"/>
+		<display value="Diagnostic Imaging"/>
+	</concept>
+	<concept>
+		<code value="822"/>
+		<display value="Chemical Pathology"/>
+	</concept>
+	<concept>
+		<code value="834"/>
+		<display value="Medical Virology"/>
+	</concept>
+	<concept>
+		<code value="840"/>
+		<display value="Audiology"/>
+	</concept>
+	<concept>
+		<code value="920"/>
+		<display value="Diabetic Education Service"/>
+	</concept>
+	<concept>
+		<code value="950"/>
+		<display value="Nursing"/>
+	</concept>
+</CodeSystem>

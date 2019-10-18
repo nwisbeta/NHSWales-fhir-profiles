@@ -608,7 +608,7 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Organization-1" />
+        <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Organisation-1" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -665,9 +665,6 @@
       </constraint>
       <isSummary value="true" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="PractitionerRole" />
-        </extension>
         <strength value="example" />
         <description value="The role a person plays representing an organization" />
         <valueSetReference>
@@ -1521,15 +1518,12 @@
       <path value="PractitionerRole.organization" />
       <type>
         <code value="Reference" />
-        <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Organization-1" />
+        <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Organisation-1" />
       </type>
     </element>
     <element id="PractitionerRole.code">
       <path value="PractitionerRole.code" />
       <binding>
-        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
-          <valueString value="PractitionerRole" />
-        </extension>
         <strength value="example" />
         <valueSetReference>
           <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-PractitionerRole-1" />
