@@ -6979,7 +6979,7 @@
     </element>
     <element id="Patient.gender">
       <path value="Patient.gender" />
-      <short value="male | female | not specified" />
+      <short value="male | female | other | unknown" />
       <definition value="Administrative Gender - the gender that the patient is considered to have for administration and record keeping purposes." />
       <comment value="The gender may not match the biological sex as determined by genetics, or the individual's preferred identification. Note that for both humans and particularly animals, there are other legitimate possibilities than M and F, though the vast majority of systems and contexts only support M and F.  Systems providing decision support or enforcing business rules should ideally do this on the basis of Observations dealing with the specific gender aspect of interest (anatomical, chromosonal, social, etc.)  However, because these observations are infrequently recorded, defaulting to the administrative gender is common practice.  Where such defaulting occurs, rule enforcement should allow for the variation between administrative and biological, chromosonal and other gender aspects.  For example, an alert about a hysterectomy on a male should be handled as a warning or overrideable error, not a &quot;hard&quot; error." />
       <requirements value="Needed for identification of the individual, in combination with (at least) name and birth date. Gender of individual drives many clinical processes." />
@@ -7003,10 +7003,16 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="AdministrativeGender" />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true" />
+        </extension>
         <strength value="required" />
-        <description value="The gender of a client (as stated by the client). Gender identity is a person's sense of identification with either the male or female sex, as manifested in appearance, behaviour, and other aspects of a person's life." />
+        <description value="The gender of a person used for administrative purposes." />
         <valueSetReference>
-          <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-Gender-1" />
+          <reference value="http://hl7.org/fhir/ValueSet/administrative-gender" />
         </valueSetReference>
       </binding>
       <mapping>
@@ -8934,10 +8940,7 @@
     <element id="Patient.extension:nhsCommunication">
       <path value="Patient.extension" />
       <sliceName value="nhsCommunication" />
-      <short value="NHS communication preferences for a resource" />
       <definition value="NHS communication preferences for a resource" />
-      <min value="0" />
-      <max value="*" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-NHSCommunication-1" />
@@ -9159,17 +9162,6 @@
     <element id="Patient.name">
       <path value="Patient.name" />
       <min value="1" />
-    </element>
-    <element id="Patient.gender">
-      <path value="Patient.gender" />
-      <short value="male | female | not specified" />
-      <binding>
-        <strength value="required" />
-        <description value="The gender of a client (as stated by the client). Gender identity is a person's sense of identification with either the male or female sex, as manifested in appearance, behaviour, and other aspects of a person's life." />
-        <valueSetReference>
-          <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-Gender-1" />
-        </valueSetReference>
-      </binding>
     </element>
     <element id="Patient.maritalStatus">
       <path value="Patient.maritalStatus" />

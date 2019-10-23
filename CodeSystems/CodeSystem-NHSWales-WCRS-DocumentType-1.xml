@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CodeSystem-NHSWales-WCRS-DocumentType-1"/>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-WCRS-DocumentType-1"/>	
+	<version value="1.0.0"/>
+	<name value="WCRS Document Type"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2019-10-23T13:50:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="WCRS Document Type"/>
+	<copyright value="© 2019 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="AL01"/>
+		<display value="Allergies and Adverse Reactions"/>
+	</concept>
+	<concept>
+		<code value="AL02"/>
+		<display value="Alerts"/>
+	</concept>
+	<concept>
+		<code value="AS01"/>
+		<display value="Nursing assessment tool "/>
+	</concept>
+	<concept>
+		<code value="AS02"/>
+		<display value="AHP Assessment "/>
+	</concept>
+	<concept>
+		<code value="AS03"/>
+		<display value="CAF assessment"/>
+	</concept>
+	<concept>
+		<code value="ASO4"/>
+		<display value="SSA assessment"/>
+	</concept>
+	<concept>
+		<code value="AS05"/>
+		<display value="CPA assessment"/>
+	</concept>
+	<concept>
+		<code value="AS07"/>
+		<display value="Multidisciplinary assessment"/>
+	</concept>
+	<concept>
+		<code value="AS08"/>
+		<display value="Scored Assessment assessment"/>
+	</concept>
+	<concept>
+		<code value="AS10"/>
+		<display value="Pre-admission assessment"/>
+	</concept>
+	<concept>
+		<code value="AS11"/>
+		<display value="Self-assessment form"/>
+	</concept>
+	<concept>
+		<code value="AS12"/>
+		<display value="Medical assessment"/>
+	</concept>
+	<concept>
+		<code value="AS13"/>
+		<display value="Theatre Patient Checklist"/>
+	</concept>
+	<concept>
+		<code value="AS14"/>
+		<display value="Social Services Assessment"/>
+	</concept>
+	<concept>
+		<code value="AS15"/>
+		<display value="Pre Op Assessment"/>
+	</concept>
+	<concept>
+		<code value="AS16"/>
+		<display value="Nursing profile"/>
+	</concept>
+	<concept>
+		<code value="AS34"/>
+		<display value="Risk Assessment"/>
+	</concept>
+	<concept>
+		<code value="AS35"/>
+		<display value="Gait Analysis Assessment Record"/>
+	</concept>
+	<concept>
+		<code value="AS99"/>
+		<display value="Assessment"/>
+	</concept>
+	<concept>
+		<code value="CA03"/>
+		<display value="Clinical Care Plan"/>
+	</concept>
+	<concept>
+		<code value="CA04"/>
+		<display value="MDT Plan"/>
+	</concept>
+	<concept>
+		<code value="CA05"/>
+		<display value="Discharge Plan"/>
+	</concept>
+	<concept>
+		<code value="CA06"/>
+		<display value="Anticipatory Care Plan (ETL)"/>
+	</concept>
+	<concept>
+		<code value="CA07"/>
+		<display value="Anticipatory Care Plan (ITG)"/>
+	</concept>
+	<concept>
+		<code value="CA99"/>
+		<display value="Care Plan"/>
+	</concept>
+	<concept>
+		<code value="CH03"/>
+		<display value="Fluid Balance Chart"/>
+	</concept>
+	<concept>
+		<code value="CH04"/>
+		<display value="Fundal height chart"/>
+	</concept>
+	<concept>
+		<code value="CH05"/>
+		<display value="Growth Chart"/>
+	</concept>
+	<concept>
+		<code value="CH06"/>
+		<display value="ITU &amp; ICU chart"/>
+	</concept>
+	<concept>
+		<code value="CH07"/>
+		<display value="Partogram"/>
+	</concept>
+	<concept>
+		<code value="CH08"/>
+		<display value="Temperature Chart"/>
+	</concept>
+	<concept>
+		<code value="CH09"/>
+		<display value="Patient Safety Checklist"/>
+	</concept>
+	<concept>
+		<code value="CH10"/>
+		<display value="Vital Signs Chart"/>
+	</concept>
+	<concept>
+		<code value="CH11"/>
+		<display value="Weight Chart"/>
+	</concept>
+	<concept>
+		<code value="CH99"/>
+		<display value="Observation"/>
+	</concept>
+	<concept>
+		<code value="CL03"/>
+		<display value="Inpatient medical note"/>
+	</concept>
+	<concept>
+		<code value="CL04"/>
+		<display value="Inpatient nursing note"/>
+	</concept>
+	<concept>
+		<code value="CL0S"/>
+		<display value="Medical note"/>
+	</concept>
+	<concept>
+		<code value="CL06"/>
+		<display value="Multidisciplinary note"/>
+	</concept>
+	<concept>
+		<code value="CL07"/>
+		<display value="Nursing note"/>
+	</concept>
+	<concept>
+		<code value="CL08"/>
+		<display value="OOH note"/>
+	</concept>
+	<concept>
+		<code value="CL09"/>
+		<display value="Outpatient nursing note"/>
+	</concept>
+	<concept>
+		<code value="CL10"/>
+		<display value="Outpatient medical note"/>
+	</concept>
+	<concept>
+		<code value="CL13"/>
+		<display value="Telephone Consultation"/>
+	</concept>
+	<concept>
+		<code value="CL14"/>
+		<display value="Video Consultation"/>
+	</concept>
+	<concept>
+		<code value="CL15"/>
+		<display value="Summary record"/>
+	</concept>
+	<concept>
+		<code value="CL16"/>
+		<display value="ED Card"/>
+	</concept>
+	<concept>
+		<code value="CL99"/>
+		<display value="Clinical note"/>
+	</concept>
+	<concept>
+		<code value="CO02"/>
+		<display value="Outpatient Letter"/>
+	</concept>
+	<concept>
+		<code value="CO03"/>
+		<display value="Clinical letter"/>
+	</concept>
+	<concept>
+		<code value="CO04"/>
+		<display value="Discharge letter"/>
+	</concept>
+	<concept>
+		<code value="CO06"/>
+		<display value="Inpatient Final Discharge letter"/>
+	</concept>
+	<concept>
+		<code value="CO08"/>
+		<display value="Immediate Inpatient Discharge letter"/>
+	</concept>
+	<concept>
+		<code value="CO09"/>
+		<display value="Letter from patient"/>
+	</concept>
+	<concept>
+		<code value="CO14"/>
+		<display value="Referral letter"/>
+	</concept>
+	<concept>
+		<code value="CO15"/>
+		<display value="Social service letter"/>
+	</concept>
+	<concept>
+		<code value="CO16"/>
+		<display value="Transfer letter"/>
+	</concept>
+	<concept>
+		<code value="CO17"/>
+		<display value="Administrative Letter"/>
+	</concept>
+	<concept>
+		<code value="CO18"/>
+		<display value="Did not Attend Letter"/>
+	</concept>
+	<concept>
+		<code value="CO19"/>
+		<display value="Unscheduled Care Letter"/>
+	</concept>
+	<concept>
+		<code value="C020"/>
+		<display value="MDT Letter"/>
+	</concept>
+	<concept>
+		<code value="CO99"/>
+		<display value="Correspondence"/>
+	</concept>
+	<concept>
+		<code value="IM01"/>
+		<display value="Radiology"/>
+	</concept>
+	<concept>
+		<code value="IM02"/>
+		<display value="Medical Photograph"/>
+	</concept>
+	<concept>
+		<code value="IM03"/>
+		<display value="Nuclear Medicine Images"/>
+	</concept>
+	<concept>
+		<code value="IM99"/>
+		<display value="Images"/>
+	</concept>
+	<concept>
+		<code value="IN01"/>
+		<display value="Anaesthetic record"/>
+	</concept>
+	<concept>
+		<code value="IN02"/>
+		<display value="Nutritional record"/>
+	</concept>
+	<concept>
+		<code value="IN04"/>
+		<display value="Endoscopy record"/>
+	</concept>
+	<concept>
+		<code value="IN05"/>
+		<display value="Interventional radiology record"/>
+	</concept>
+	<concept>
+		<code value="IN06"/>
+		<display value="AHP therapy record"/>
+	</concept>
+	<concept>
+		<code value="IN07"/>
+		<display value="Operation note"/>
+	</concept>
+	<concept>
+		<code value="IN08"/>
+		<display value="Radiotherapy record"/>
+	</concept>
+	<concept>
+		<code value="IN09"/>
+		<display value="UVA / PUVA Treatment Record"/>
+	</concept>
+	<concept>
+		<code value="IN10"/>
+		<display value="Record of Implantation of cardiac electronic device"/>
+	</concept>
+	<concept>
+		<code value="IN11"/>
+		<display value="Record of Percutaneous Coronary Intervention"/>
+	</concept>
+	<concept>
+		<code value="IN12"/>
+		<display value="Record of direct current Cardioversion"/>
+	</concept>
+	<concept>
+		<code value="IN99"/>
+		<display value="Intervention"/>
+	</concept>
+	<concept>
+		<code value="LA01"/>
+		<display value="Biochemistry Report"/>
+	</concept>
+	<concept>
+		<code value="LA02"/>
+		<display value="Combined laboratory report"/>
+	</concept>
+	<concept>
+		<code value="LA03"/>
+		<display value="Haematology Report"/>
+	</concept>
+	<concept>
+		<code value="LA04"/>
+		<display value="Cellular Pathology Report"/>
+	</concept>
+	<concept>
+		<code value="LA05"/>
+		<display value="Virology Report"/>
+	</concept>
+	<concept>
+		<code value="LA06"/>
+		<display value="Immunology Report"/>
+	</concept>
+	<concept>
+		<code value="LA07"/>
+		<display value="Microbiology Report"/>
+	</concept>
+	<concept>
+		<code value="LA08"/>
+		<display value="Blood transfusion Report"/>
+	</concept>
+	<concept>
+		<code value="LA09"/>
+		<display value="Histocompatibility &amp; Immunogenetics Report"/>
+	</concept>
+	<concept>
+		<code value="LA20"/>
+		<display value="Genetics Report"/>
+	</concept>
+	<concept>
+		<code value="LA99"/>
+		<display value="Laboratory Report"/>
+	</concept>
+	<concept>
+		<code value="ME01"/>
+		<display value="Controlled drugs dispensing"/>
+	</concept>
+	<concept>
+		<code value="ME03"/>
+		<display value="Drug administration chart"/>
+	</concept>
+	<concept>
+		<code value="ME07"/>
+		<display value="Medication record"/>
+	</concept>
+	<concept>
+		<code value="ME08"/>
+		<display value="Prescription and administration record"/>
+	</concept>
+	<concept>
+		<code value="ME09"/>
+		<display value="Chemotherapy record"/>
+	</concept>
+	<concept>
+		<code value="ME10"/>
+		<display value="Medication review"/>
+	</concept>
+	<concept>
+		<code value="ME99"/>
+		<display value="Medication"/>
+	</concept>
+	<concept>
+		<code value="MI01"/>
+		<display value="Miscellaneous"/>
+	</concept>
+	<concept>
+		<code value="MI02"/>
+		<display value="Front sheet"/>
+	</concept>
+	<concept>
+		<code value="MI03"/>
+		<display value="Legacy Bulk Scanned Record"/>
+	</concept>
+	<concept>
+		<code value="NO01"/>
+		<display value="Fiscal Autopsy report"/>
+	</concept>
+	<concept>
+		<code value="NO02"/>
+		<display value="Child protection documentation"/>
+	</concept>
+	<concept>
+		<code value="NO03"/>
+		<display value="Consent form"/>
+	</concept>
+	<concept>
+		<code value="NO04"/>
+		<display value="Death certificate"/>
+	</concept>
+	<concept>
+		<code value="NO05"/>
+		<display value="Exemption form"/>
+	</concept>
+	<concept>
+		<code value="NO06"/>
+		<display value="Infectious disease notification"/>
+	</concept>
+	<concept>
+		<code value="NO07"/>
+		<display value="Legal notice"/>
+	</concept>
+	<concept>
+		<code value="NO08"/>
+		<display value="Mental Health Act notice"/>
+	</concept>
+	<concept>
+		<code value="NO09"/>
+		<display value="Refusal Form"/>
+	</concept>
+	<concept>
+		<code value="NO10"/>
+		<display value="Employment report"/>
+	</concept>
+	<concept>
+		<code value="NO11"/>
+		<display value="Housing report"/>
+	</concept>
+	<concept>
+		<code value="NO12"/>
+		<display value="War Pensions report"/>
+	</concept>
+	<concept>
+		<code value="NO13"/>
+		<display value="Disabled driver badge report"/>
+	</concept>
+	<concept>
+		<code value="NO14"/>
+		<display value="Driving licence fitness report"/>
+	</concept>
+	<concept>
+		<code value="NO15"/>
+		<display value="DSS RMO RN2 report"/>
+	</concept>
+	<concept>
+		<code value="NO16"/>
+		<display value="Insurance (life) report"/>
+	</concept>
+	<concept>
+		<code value="NO17"/>
+		<display value="RM10-DHSS DMO report"/>
+	</concept>
+	<concept>
+		<code value="NO18"/>
+		<display value="DLA 370 report"/>
+	</concept>
+	<concept>
+		<code value="NO19"/>
+		<display value="DS 1500 report"/>
+	</concept>
+	<concept>
+		<code value="NO20"/>
+		<display value="Adoption Report"/>
+	</concept>
+	<concept>
+		<code value="NO21"/>
+		<display value="Adult Incapacity Report"/>
+	</concept>
+	<concept>
+		<code value="NO22"/>
+		<display value="Power of attorney/Legal Guardianship"/>
+	</concept>
+	<concept>
+		<code value="NO99"/>
+		<display value="Notification &amp; Legal Document"/>
+	</concept>
+	<concept>
+		<code value="PH01"/>
+		<display value="PHO Patient held record"/>
+	</concept>
+	<concept>
+		<code value="PA01"/>
+		<display value="DNAR order"/>
+	</concept>
+	<concept>
+		<code value="PA02"/>
+		<display value="Living Wills &amp; Advance directives"/>
+	</concept>
+	<concept>
+		<code value="PA03"/>
+		<display value="Organ donor cardiac"/>
+	</concept>
+	<concept>
+		<code value="PA99"/>
+		<display value="Patient Preferences/Instruction"/>
+	</concept>
+	<concept>
+		<code value="RE01"/>
+		<display value="Eesearch Study Consent and Participant Information Sheet"/>
+	</concept>
+	<concept>
+		<code value="RE02"/>
+		<display value="Research Study Visit document"/>
+	</concept>
+	<concept>
+		<code value="RE03"/>
+		<display value="Research Study Randomisation documentation"/>
+	</concept>
+	<concept>
+		<code value="RE04"/>
+		<display value="Research Study Adverse Event document"/>
+	</concept>
+	<concept>
+		<code value="RE05"/>
+		<display value="Research Study withdrawal/un-blinding"/>
+	</concept>
+	<concept>
+		<code value="RE99"/>
+		<display value="Research Study Document — not otherwise specified"/>
+	</concept>
+	<concept>
+		<code value="RP02"/>
+		<display value="ECG"/>
+	</concept>
+	<concept>
+		<code value="RP05"/>
+		<display value="Pulmonary Investigation"/>
+	</concept>
+	<concept>
+		<code value="RPO8"/>
+		<display value="Vascular Investigation"/>
+	</concept>
+	<concept>
+		<code value="RPO9"/>
+		<display value="Gastro Investigation"/>
+	</concept>
+	<concept>
+		<code value="RP11"/>
+		<display value="Cardiac Investigation"/>
+	</concept>
+	<concept>
+		<code value="RP12"/>
+		<display value="Urodynamics"/>
+	</concept>
+	<concept>
+		<code value="RP13"/>
+		<display value="Neuro Investigation"/>
+	</concept>
+	<concept>
+		<code value="RP29"/>
+		<display value="Ambulance Patient Report Form"/>
+	</concept>
+	<concept>
+		<code value="RP30"/>
+		<display value="Radiology"/>
+	</concept>
+	<concept>
+		<code value="RP31"/>
+		<display value="Echo"/>
+	</concept>
+	<concept>
+		<code value="RP32"/>
+		<display value="Audiology Investigation"/>
+	</concept>
+	<concept>
+		<code value="RP33"/>
+		<display value="AHP Investigation"/>
+	</concept>
+	<concept>
+		<code value="RP34"/>
+		<display value="ETT"/>
+	</concept>
+	<concept>
+		<code value="RP35"/>
+		<display value="Ambulatory ECG monitoring report"/>
+	</concept>
+	<concept>
+		<code value="RP36"/>
+		<display value="Implanted Device Maintenance Report"/>
+	</concept>
+	<concept>
+		<code value="RP37"/>
+		<display value="Endoscopy Report - Upper"/>
+	</concept>
+	<concept>
+		<code value="RP38"/>
+		<display value="Endoscopy Report - Lower"/>
+	</concept>
+	<concept>
+		<code value="RP39"/>
+		<display value="Visual Field Report"/>
+	</concept>
+	<concept>
+		<code value="RP40"/>
+		<display value="Nuclear Medicine Report"/>
+	</concept>
+	<concept>
+		<code value="RP41"/>
+		<display value="Non Procurator Fiscal Post Mortem Report"/>
+	</concept>
+	<concept>
+		<code value="RP42"/>
+		<display value="Diagnostic Coronary Angiography Report"/>
+	</concept>
+	<concept>
+		<code value="RP43"/>
+		<display value="Ambulatory BP Monitoring"/>
+	</concept>
+	<concept>
+		<code value="RP44"/>
+		<display value="Airway Endoscopy Report"/>
+	</concept>
+	<concept>
+		<code value="RP45"/>
+		<display value="Endoscopic Retrograde Cholangio-Pancreatography Report"/>
+	</concept>
+	<concept>
+		<code value="RP46"/>
+		<display value="Endoscopic Ultrasound Report"/>
+	</concept>
+	<concept>
+		<code value="RP47"/>
+		<display value="Endobronchial Ultrasound Report"/>
+	</concept>
+	<concept>
+		<code value="RP48"/>
+		<display value="Combined Upper and Lower GI endoscopy Report"/>
+	</concept>
+	<concept>
+		<code value="RP49"/>
+		<display value="Cystoscopy Report"/>
+	</concept>
+	<concept>
+		<code value="RP50"/>
+		<display value="Report of Cardiac Electrophysiology study"/>
+	</concept>
+	<concept>
+		<code value="RP51"/>
+		<display value="Rest | Report of Walking Test"/>
+	</concept>
+	<concept>
+		<code value="RP52"/>
+		<display value="Report of Tilt Test"/>
+	</concept>
+	<concept>
+		<code value="RP53"/>
+		<display value="Report of Bielschowsky head tilt test"/>
+	</concept>
+	<concept>
+		<code value="RP99"/>
+		<display value="Report"/>
+	</concept>
+	<concept>
+		<code value="TH04"/>
+		<display value="Non-Statutory providerdocument"/>
+	</concept>
+	<concept>
+		<code value="TH02"/>
+		<display value="Private provider note"/>
+	</concept>
+	<concept>
+		<code value="TH99"/>
+		<display value="Third party document"/>
+	</concept>
+</CodeSystem>
