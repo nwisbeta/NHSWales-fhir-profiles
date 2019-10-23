@@ -1005,7 +1005,7 @@
       <short value="Who/what authenticated the document" />
       <definition value="Which person or organization authenticates that this document is valid." />
       <comment value="Represents a participant within the author institution who has legally authenticated or attested the document. Legal authentication implies that a document has been signed manually or electronically by the legal Authenticator." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="DocumentReference.authenticator" />
@@ -1014,11 +1014,8 @@
       </base>
       <type>
         <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Practitioner" />
-      </type>
-      <type>
-        <code value="Reference" />
-        <targetProfile value="http://hl7.org/fhir/StructureDefinition/Organization" />
+        <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Practitioner-1" />
+        <aggregation value="contained" />
       </type>
       <condition value="ele-1" />
       <constraint>
@@ -2503,6 +2500,15 @@
     </element>
     <element id="DocumentReference.author">
       <path value="DocumentReference.author" />
+      <min value="1" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Practitioner-1" />
+        <aggregation value="contained" />
+      </type>
+    </element>
+    <element id="DocumentReference.authenticator">
+      <path value="DocumentReference.authenticator" />
       <min value="1" />
       <type>
         <code value="Reference" />
