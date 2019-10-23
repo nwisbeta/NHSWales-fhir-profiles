@@ -2064,7 +2064,7 @@
       <isSummary value="true" />
       <binding>
         <strength value="required" />
-        <description value="XDS Facility Type." />
+        <description value="The care setting for the event to which the document relates" />
         <valueSetReference>
           <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-WCRS-CareSetting-1" />
         </valueSetReference>
@@ -2542,6 +2542,7 @@
       <min value="1" />
       <binding>
         <strength value="required" />
+        <description value="The care setting for the event to which the document relates" />
         <valueSetReference>
           <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-WCRS-CareSetting-1" />
         </valueSetReference>
