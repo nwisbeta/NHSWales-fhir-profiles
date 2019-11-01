@@ -1716,7 +1716,7 @@
       <path value="Encounter.participant" />
       <short value="List of participants involved in the encounter" />
       <definition value="The list of people responsible for providing the service." />
-      <min value="0" />
+      <min value="1" />
       <max value="*" />
       <base>
         <path value="Encounter.participant" />
@@ -3670,8 +3670,6 @@
       <sliceName value="treatmentSpecialty" />
       <short value="This is the specialty under which the patient will be or is treated." />
       <definition value="This is the specialty under which the patient will be or is treated. This may either be the same&#xD;&#xA;as the specialty function recorded as the consultant's main specialty or a different specialty&#xD;&#xA;function which will be the consultant's interest specialty function. Note that both the main&#xD;&#xA;specialty function and the interest specialty function should be based on one of the Royal&#xD;&#xA;College specialties." />
-      <min value="0" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-TreatmentSpecialty-1" />
@@ -3688,6 +3686,10 @@
           <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-AttendanceCategory-1" />
         </valueSetReference>
       </binding>
+    </element>
+    <element id="Encounter.participant">
+      <path value="Encounter.participant" />
+      <min value="1" />
     </element>
   </differential>
 </StructureDefinition>

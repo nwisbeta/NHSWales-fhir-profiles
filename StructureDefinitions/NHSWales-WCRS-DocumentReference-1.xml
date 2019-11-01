@@ -325,12 +325,12 @@
       <path value="DocumentReference.extension" />
       <sliceName value="transcriber" />
       <short value="The person who transcribed the document" />
-      <definition value="The person who transcribed the document. E.g. a medical secreatary" />
+      <definition value="Optional Extension Element - found in all resources." />
       <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
       <alias value="extensions" />
       <alias value="user content" />
       <min value="0" />
-      <max value="1" />
+      <max value="*" />
       <base>
         <path value="DomainResource.extension" />
         <min value="0" />
@@ -597,6 +597,12 @@
       <isModifier value="true" />
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="DocumentReferenceStatus" />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true" />
+        </extension>
         <strength value="required" />
         <description value="The status of the document reference." />
         <valueSetReference>
@@ -649,6 +655,9 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="ReferredDocumentStatus" />
+        </extension>
         <strength value="required" />
         <description value="Status of the underlying document." />
         <valueSetReference>
@@ -763,6 +772,9 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="DocumentC80Class" />
+        </extension>
         <strength value="example" />
         <description value="High-level kind of a clinical document at a macro level." />
         <valueSetReference>
@@ -1005,7 +1017,7 @@
       <short value="Who/what authenticated the document" />
       <definition value="Which person or organization authenticates that this document is valid." />
       <comment value="Represents a participant within the author institution who has legally authenticated or attested the document. Legal authentication implies that a document has been signed manually or electronically by the legal Authenticator." />
-      <min value="1" />
+      <min value="0" />
       <max value="1" />
       <base>
         <path value="DocumentReference.authenticator" />
@@ -1285,6 +1297,9 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="DocumentRelationshipType" />
+        </extension>
         <strength value="required" />
         <description value="The type of relationship between documents." />
         <valueSetReference>
@@ -1421,6 +1436,12 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="SecurityLabels" />
+        </extension>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding">
+          <valueBoolean value="true" />
+        </extension>
         <strength value="extensible" />
         <description value="Security Labels from the Healthcare Privacy and Security Classification System." />
         <valueSetReference>
@@ -1461,7 +1482,7 @@
       <short value="Document referenced" />
       <definition value="The document and format referenced. There may be multiple content element repetitions, each with a different format." />
       <min value="1" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DocumentReference.content" />
         <min value="1" />
@@ -1691,6 +1712,9 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="DocumentFormat" />
+        </extension>
         <strength value="preferred" />
         <description value="Document Format Codes." />
         <valueSetReference>
@@ -1833,6 +1857,49 @@
         <map value="N/A" />
       </mapping>
     </element>
+    <element id="DocumentReference.context.extension:documentAuthorType">
+      <path value="DocumentReference.context.extension" />
+      <sliceName value="documentAuthorType" />
+      <short value="The type of care professional who has been identified as the Author of the document" />
+      <definition value="The type of care professional who has been identified as the Author of the document" />
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
+      <alias value="extensions" />
+      <alias value="user content" />
+      <min value="1" />
+      <max value="1" />
+      <base>
+        <path value="Element.extension" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-PractitionerRole-1" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+      </constraint>
+      <constraint>
+        <key value="ext-1" />
+        <severity value="error" />
+        <human value="Must have either extensions or value[x], not both" />
+        <expression value="extension.exists() != value.exists()" />
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="N/A" />
+      </mapping>
+    </element>
     <element id="DocumentReference.context.modifierExtension">
       <path value="DocumentReference.context.modifierExtension" />
       <short value="Extensions that cannot be ignored" />
@@ -1933,7 +2000,7 @@
       <definition value="This list of codes represents the main clinical acts, such as a colonoscopy or an appendectomy, being documented. In some cases, the event is inherent in the typeCode, such as a &quot;History and Physical Report&quot; in which the procedure being documented is necessarily a &quot;History and Physical&quot; act." />
       <comment value="An event can further specialize the act inherent in the type, such as  where it is simply &quot;Procedure Report&quot; and the procedure was a &quot;colonoscopy&quot;. If one or more event codes are included, they shall not conflict with the values inherent in the class or type elements as such a conflict would create an ambiguous situation." />
       <min value="0" />
-      <max value="*" />
+      <max value="1" />
       <base>
         <path value="DocumentReference.context.event" />
         <min value="0" />
@@ -1952,6 +2019,9 @@
       </constraint>
       <isSummary value="true" />
       <binding>
+        <extension url="http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName">
+          <valueString value="DocumentEventType" />
+        </extension>
         <strength value="example" />
         <description value="This list of codes represents the main clinical acts being documented." />
         <valueSetReference>
@@ -1988,7 +2058,7 @@
       <short value="Time of service that is being documented" />
       <definition value="The time period over which the service that is described by the document was provided." />
       <comment value="This is not a duration - that's a measure of time (a separate type), but a duration that occurs at a fixed value of time. A Period specifies a range of time; the context of use will specify whether the entire range applies (e.g. &quot;the patient was an inpatient of the hospital for this time range&quot;) or one value from the range applies (e.g. &quot;give to the patient between these two times&quot;). If duration is required, specify the type as Interval|Duration." />
-      <min value="0" />
+      <min value="1" />
       <max value="1" />
       <base>
         <path value="DocumentReference.context.period" />
@@ -2033,6 +2103,161 @@
       <mapping>
         <identity value="xds" />
         <map value="DocumentEntry.serviceStartTime DocumentEntry.serviceStopTime" />
+      </mapping>
+    </element>
+    <element id="DocumentReference.context.period.id">
+      <path value="DocumentReference.context.period.id" />
+      <representation value="xmlAttr" />
+      <short value="xml:id (or equivalent in JSON)" />
+      <definition value="unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces." />
+      <comment value="Note that FHIR strings may not exceed 1MB in size" />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Element.id" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="string" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+    </element>
+    <element id="DocumentReference.context.period.extension">
+      <path value="DocumentReference.context.period.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <description value="Extensions are always sliced by (at least) url" />
+        <rules value="open" />
+      </slicing>
+      <short value="Additional Content defined by implementations" />
+      <definition value="May be used to represent additional information that is not part of the basic definition of the element. In order to make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension." />
+      <comment value="There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone." />
+      <alias value="extensions" />
+      <alias value="user content" />
+      <min value="0" />
+      <max value="*" />
+      <base>
+        <path value="Element.extension" />
+        <min value="0" />
+        <max value="*" />
+      </base>
+      <type>
+        <code value="Extension" />
+      </type>
+      <condition value="ele-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+      </constraint>
+      <constraint>
+        <key value="ext-1" />
+        <severity value="error" />
+        <human value="Must have either extensions or value[x], not both" />
+        <expression value="extension.exists() != value.exists()" />
+        <xpath value="exists(f:extension)!=exists(f:*[starts-with(local-name(.), 'value')])" />
+      </constraint>
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="N/A" />
+      </mapping>
+    </element>
+    <element id="DocumentReference.context.period.start">
+      <path value="DocumentReference.context.period.start" />
+      <short value="Starting time with inclusive boundary" />
+      <definition value="The start of the period. The boundary is inclusive." />
+      <comment value="If the low element is missing, the meaning is that the low boundary is not known." />
+      <min value="1" />
+      <max value="1" />
+      <base>
+        <path value="Period.start" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="dateTime" />
+      </type>
+      <condition value="ele-1" />
+      <condition value="per-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+      </constraint>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="v2" />
+        <map value="DR.1" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="./low" />
+      </mapping>
+    </element>
+    <element id="DocumentReference.context.period.end">
+      <path value="DocumentReference.context.period.end" />
+      <short value="End time with inclusive boundary, if not ongoing" />
+      <definition value="The end of the period. If the end of the period is missing, it means that the period is ongoing. The start may be in the past, and the end date in the future, which means that period is expected/planned to end at that time." />
+      <comment value="The high value includes any matching date/time. i.e. 2012-02-03T10:00:00 is in a period that has a end value of 2012-02-03." />
+      <min value="0" />
+      <max value="1" />
+      <base>
+        <path value="Period.end" />
+        <min value="0" />
+        <max value="1" />
+      </base>
+      <type>
+        <code value="dateTime" />
+      </type>
+      <meaningWhenMissing value="If the end of the period is missing, it means that the period is ongoing" />
+      <condition value="ele-1" />
+      <condition value="per-1" />
+      <constraint>
+        <key value="ele-1" />
+        <severity value="error" />
+        <human value="All FHIR elements must have a @value or children" />
+        <expression value="hasValue() or (children().count() &gt; id.count())" />
+        <xpath value="@value|f:*|h:div" />
+      </constraint>
+      <isSummary value="true" />
+      <mapping>
+        <identity value="rim" />
+        <map value="n/a" />
+      </mapping>
+      <mapping>
+        <identity value="v2" />
+        <map value="DR.2" />
+      </mapping>
+      <mapping>
+        <identity value="rim" />
+        <map value="./high" />
       </mapping>
     </element>
     <element id="DocumentReference.context.facilityType">
@@ -2154,7 +2379,7 @@
       <definition value="The Patient Information as known when the document was published. May be a reference to a version specific, or contained." />
       <comment value="References SHALL be a reference to an actual FHIR resource, and SHALL be resolveable (allowing for access control, temporary unavailability, etc). Resolution can be either by retrieval from the URL, or, where applicable by resource type, by treating an absolute reference as a canonical URL and looking it up in a local registry/repository." />
       <min value="0" />
-      <max value="1" />
+      <max value="0" />
       <base>
         <path value="DocumentReference.context.sourcePatientInfo" />
         <min value="0" />
@@ -2509,7 +2734,6 @@
     </element>
     <element id="DocumentReference.authenticator">
       <path value="DocumentReference.authenticator" />
-      <min value="1" />
       <type>
         <code value="Reference" />
         <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Practitioner-1" />
@@ -2530,9 +2754,35 @@
       <min value="1" />
       <max value="1" />
     </element>
+    <element id="DocumentReference.content">
+      <path value="DocumentReference.content" />
+      <max value="1" />
+    </element>
     <element id="DocumentReference.context">
       <path value="DocumentReference.context" />
       <min value="1" />
+    </element>
+    <element id="DocumentReference.context.extension">
+      <path value="DocumentReference.context.extension" />
+      <slicing>
+        <discriminator>
+          <type value="value" />
+          <path value="url" />
+        </discriminator>
+        <rules value="open" />
+      </slicing>
+    </element>
+    <element id="DocumentReference.context.extension:documentAuthorType">
+      <path value="DocumentReference.context.extension" />
+      <sliceName value="documentAuthorType" />
+      <short value="The type of care professional who has been identified as the Author of the document" />
+      <definition value="The type of care professional who has been identified as the Author of the document" />
+      <min value="1" />
+      <max value="1" />
+      <type>
+        <code value="Extension" />
+        <profile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/Extension-NHSWales-PractitionerRole-1" />
+      </type>
     </element>
     <element id="DocumentReference.context.encounter">
       <path value="DocumentReference.context.encounter" />
@@ -2542,6 +2792,18 @@
         <targetProfile value="https://fhir.wales.nhs.uk/STU3/StructureDefinition/NHSWales-Encounter-1" />
         <aggregation value="contained" />
       </type>
+    </element>
+    <element id="DocumentReference.context.event">
+      <path value="DocumentReference.context.event" />
+      <max value="1" />
+    </element>
+    <element id="DocumentReference.context.period">
+      <path value="DocumentReference.context.period" />
+      <min value="1" />
+    </element>
+    <element id="DocumentReference.context.period.start">
+      <path value="DocumentReference.context.period.start" />
+      <min value="1" />
     </element>
     <element id="DocumentReference.context.facilityType">
       <path value="DocumentReference.context.facilityType" />
@@ -2566,6 +2828,10 @@
           <reference value="https://fhir.wales.nhs.uk/STU3/ValueSet/NHSWales-TreatmentSpecialty-1" />
         </valueSetReference>
       </binding>
+    </element>
+    <element id="DocumentReference.context.sourcePatientInfo">
+      <path value="DocumentReference.context.sourcePatientInfo" />
+      <max value="0" />
     </element>
   </differential>
 </StructureDefinition>
