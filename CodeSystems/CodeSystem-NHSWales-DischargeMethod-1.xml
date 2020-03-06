@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+	<id value="CodeSystem-NHSWales-DischargeMethod-1"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
+		<valueUri value="http://www.datadictionary.wales.nhs.uk/#!WordDocuments/dischargemethod.htm"/>
+	</extension>
+	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-DischargeMethod-1"/>	
+	<version value="1.0.0"/>
+	<name value="Discharge Method"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2020-03-06T00:00:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+	<description value="This is the method of discharge from a hospital provider spell."/>
+	<copyright value="© 2020 NHS Wales Informatics Service."/>
+	<caseSensitive value="true"/>
+	<content value="complete"/>
+	<concept>
+		<code value="1"/>
+		<display value="Patient discharged on clinical advice or with clinical consent"/>
+	</concept>
+	<concept>
+		<code value="2"/>
+		<display value="Patient discharged him/herself or was discharged by a relative or advocate"/>
+	</concept>
+	<concept>
+		<code value="3"/>
+		<display value="Patient discharged by Mental Health Review Tribunal (MHRT), Home Secretary or court"/>
+	</concept>
+	<concept>
+		<code value="4"/>
+		<display value="Patient died"/>
+	</concept>
+	<concept>
+		<code value="5"/>
+		<display value="Stillbirth"/>
+	</concept>
+	<concept>
+		<code value="8"/>
+		<display value="Not applicable - hospital provider spell not yet finished (i.e. not discharged)"/>
+	</concept>
+</CodeSystem>
