@@ -1,0 +1,26 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="NHSWales-Sex"/>
+	<url value="https://fhir.wales.nhs.uk/R4/ValueSet/NHSWales-Sex"/>
+	<version value="1.0.0"/>
+	<name value="NHSWalesSex"/>
+	<title value="NHS Wales Sex"/>
+	<status value="draft"/>
+	<date value="2020-07-28T00:00:00+00:00"/>
+	<publisher value="NHS Wales Informatics Service"/>
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Sex at birth; determines how the individual would be treated clinically. A classification of the observed sex of a person, relating to the biological, physiological and physical characteristics that differentiate men and women, determined by endocrine influences.
+Person sex is observed by a care professional, and is not self-stated."/>
+	<copyright value="&#169; 2020 NHS Wales Informatics Service."/>
+	<compose>
+		<include>
+			<system value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-Sex"/>
+		</include>
+	</compose>
+</ValueSet>
