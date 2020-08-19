@@ -4,7 +4,7 @@
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
 		<valueUri value="http://nww.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
 	</extension>
-	<url value="https://fhir.wales.nhs.uk/STU3/CodeSystem/NHSWales-ConsultantSpecialty"/>	
+	<url value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-ConsultantSpecialty"/>	
 	<version value="1.0.0"/>
 	<name value="Consultant Specialty"/>
 	<status value="draft"/>
