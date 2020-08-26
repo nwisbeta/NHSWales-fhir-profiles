@@ -31,7 +31,7 @@ The logical id of the resource shall be in the form:
 
 The URL of the resource shall be in the form:  
 **[base URL]/FHIRVersion/[Resource]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
-*e.g. 'https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-DataStandards-MaritalStatusConceptMap/NHSWales-DataStandards-GenderIdentity'*
+*e.g. 'https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-DataStandards-MaritalStatus'*
 
 The name of the resource - specifically the name.value.element of the resource shall be in the form:  
 **[OrganisationName] [BusinessName1] [BusinessName1]**   
