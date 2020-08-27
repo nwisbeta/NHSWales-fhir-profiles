@@ -2,12 +2,12 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="NHSWales-DataStandards-MaritalStatus"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
-		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>
 	<url value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-DataStandards-MaritalStatus"/>	
 	<version value="1.0.0"/>
 	<name value="NHSWalesDataStandardsMaritalStatus"/>
-	<name value="NHS Wales Data Standards Marital Status"/>
+	<title value="NHS Wales Data Standards Marital Status"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2020-08-26T00:00:00+01:00"/>

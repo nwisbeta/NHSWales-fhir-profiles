@@ -2,7 +2,7 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
     <id value="NHSWales-DataStandards-GenderIdentity"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
-		<valueUri value="http://nww.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>
     <url value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-DataStandards-GenderIdentity"/>	
     <version value="1.0.0"/>

@@ -15,7 +15,6 @@ The following naming convention is provided to ensure that nationally defined FH
 
 The naming convention includes the naming segments listed below, which are defined as follows:
 * **BaseURL** for nationally defined assets is https://fhir.wales.nhs.uk
-* **FHIRVersion** The FHIR version of the resource e.g. 'R4'
 * **Resource**: The name of the FHIR resource e.g. 'CodeSystem', 'ValueSet', 'ConceptMap'. Mandatory
 * **OrganisationName**: The owning organisation of the FHIR asset e.g. 'NHSWales', or 'SocialCareWales'.
 * **BusinessName1**: The first business name of the CodeSystem. The code system MUST have at least one BusinessName segment, e.g. 'DataStandards', 'WCRS', WCCIS'. Where a CodeSystem may be used across several business domains, business names should reflect that.
@@ -31,7 +30,7 @@ The logical id of the resource shall be in the form:
 
 The URL of the resource shall be in the form:  
 **[base URL]/FHIRVersion/[Resource]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
-*e.g. 'https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-DataStandards-MaritalStatus'*
+*e.g. 'https://fhir.wales.nhs.uk/CodeSystem/NHSWales-DataStandards-MaritalStatus'*
 
 The name of the resource - specifically the name.value.element of the resource shall be in the form:  
 **[OrganisationName] [BusinessName1] [BusinessName1]**   
