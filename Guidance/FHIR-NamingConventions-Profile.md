@@ -23,7 +23,7 @@ The title of the Profile shall be in the form:
 *e.g. 'NHS Wales WCRS DocumentReference'*
 
 An example showing metadata fields for an NHS Wales FHIR Profile is provided below:
-
+```xml
 <StructureDefinition xmlns="http://hl7.org/fhir">
     <id value="NHSWales-WCRS-DocumentReference" />
     <url value="https://fhir.nhs.uk/R4/StructureDefinition/NHSWales-WCRS-DocumentReference" />
@@ -45,3 +45,4 @@ An example showing metadata fields for an NHS Wales FHIR Profile is provided bel
     <copyright value="&#169; 2020 NHS Wales Informatics Service."/><fhirVersion value="4.0.1" />
 	<!-- Definition goes here... -->
 </StructureDefinition>
+```
