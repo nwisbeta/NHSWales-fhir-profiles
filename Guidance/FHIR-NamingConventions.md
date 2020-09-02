@@ -8,7 +8,7 @@ It will be neccessary, however, for NHS Wales to define its own standards for th
 
 The following naming convention is provided to ensure that nationally defined FHIR assets are named in a consistent manner, and shall be applied to the FHIR resources listed below. Click the links provided to view the NHS Wales naming convention for each resource type:
 
-* StructureDefinition ([Profile](FHIR-NamingConventions-Profile) and [Extension](FHIR-NamingConventions-Extension.md))
+* StructureDefinition ([Profile](FHIR-NamingConventions-Profile.md) and [Extension](FHIR-NamingConventions-Extension.md))
 * [CodeSystem](FHIR-NamingConventions-CodeSystem.md)
 * [ValueSet](FHIR-NamingConventions-ValueSet.md)
 * [ConceptMap](FHIR-NamingConventions-ConceptMap.md)
