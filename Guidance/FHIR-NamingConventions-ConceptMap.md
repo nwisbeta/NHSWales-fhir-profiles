@@ -15,7 +15,7 @@ The URL of the ConceptMap shall be in the form:
 *e.g. 'https://fhir.nhs.uk/ConceptMap/ConceptMap-NHSWales-DataStandards-AdministrativeGender'*
 
 The name of the ConceptMap - specifically the name.value.element - shall be in the form:  
-**[ResourceType][OrganisationName][BusinessName1][BusinessName1]**   
+**[ResourceType][OrganisationName][BusinessName1][BusinessName2]**   
 *e.g. 'ConceptMapNHSWalesDataStandardsAdministrativeGender'*
 
 The title of the ConceptMap shall be in the form:  
