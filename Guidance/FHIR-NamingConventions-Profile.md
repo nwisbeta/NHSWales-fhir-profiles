@@ -1,6 +1,6 @@
 # DRAFT NHS Wales Naming Conventions for FHIR Profiles
 
-The following naming convention applies to FHIR Profiles. Please click [here](NamingConventions.md) for definitions of the naming segments refered to in this document.
+The following naming convention applies to FHIR Profiles. Please click [here](FHIR-NamingConventions.md) for definitions of the naming segments refered to in this document.
 
 The filename of the Profile shall be in the form:  
 **[OrganisationName]-[BusinessName1]-[ResourceTypeOfProfile]**  

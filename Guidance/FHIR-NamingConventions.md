@@ -6,12 +6,12 @@ The [UK Core](https://simplifier.net/guide/ukcoredevelopment/home "HL7 FHIR® UK
 
 It will be neccessary, however, for NHS Wales to define its own standards for the use of FHIR in cases where NHS Wales information standards differ from those in use in the rest of the UK. In these cases NHS Wales will publish its own Conformance and Terminology FHIR resources to be referenced by HL7 FHIR UK Core profiles.
 
-The following naming convention is provided to ensure that nationally defined FHIR assets are named in a consistent manner, and shall be applied to the following FHIR resources:
+The following naming convention is provided to ensure that nationally defined FHIR assets are named in a consistent manner, and shall be applied to the FHIR resources listed below. Click the links provided to view the NHS Wales naming convention for each resource type:
 
-* StructureDefinition (Profile and [Extension](NamingConventions-Extension.md))
-* [CodeSystem](NamingConventions-CodeSystem.md)
-* [ValueSet](NamingConventions-ValueSet.md)
-* [ConceptMap](NamingConventions-ConceptMap.md)
+* StructureDefinition ([Profile](FHIR-NamingConventions-Profile) and [Extension](FHIR-NamingConventions-Extension.md))
+* [CodeSystem](FHIR-NamingConventions-CodeSystem.md)
+* [ValueSet](FHIR-NamingConventions-ValueSet.md)
+* [ConceptMap](FHIR-NamingConventions-ConceptMap.md)
 
 The naming convention includes the naming segments listed below, which are defined as follows:
 

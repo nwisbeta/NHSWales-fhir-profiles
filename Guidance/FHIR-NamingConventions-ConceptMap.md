@@ -1,6 +1,6 @@
 # DRAFT NHS Wales Naming Conventions for FHIR ConceptMap Resources
 
-The following naming convention applies to ConceptMap resources. Please click [here](NamingConventions.md) for definitions of the naming segments refered to in this document.
+The following naming convention applies to ConceptMap resources. Please click [here](FHIR-NamingConventions.md) for definitions of the naming segments refered to in this document.
 
 The filename of the ValueSet  shall be in the form:  
 **[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName2]**  

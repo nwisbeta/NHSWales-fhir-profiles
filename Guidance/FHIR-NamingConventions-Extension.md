@@ -1,6 +1,6 @@
 # DRAFT NHS Wales Naming Conventions for FHIR Extension Resources
 
-The following naming convention applies to Extension resources. Please click [here](NamingConventions.md) for definitions of the naming segments refered to in this document.
+The following naming convention applies to Extension resources. Please click [here](FHIR-NamingConventions.md) for definitions of the naming segments refered to in this document.
 
 The filename of the Extension  shall be in the form:  
 **Extension-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
