@@ -3,15 +3,15 @@
 The following naming convention applies to ValueSet resources. Please click [here](NamingConventions.md) for definitions of the naming segments refered to in this document.
 
 The filename of the ValueSet  shall be in the form:  
-**[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'ValueSet-NHSWales-DataStandards-Ethnicity'*
 
 The logical id of the ValueSet shall be in the form:  
-**[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'NHSWales-DataStandards-Ethnicity', 'NHSWales-WCRS-DocumentType'*
 
 The URL of the ValueSet shall be in the form:  
-**[base URL]/[ResourceType]/[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[base URL]/[ResourceType]/[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'https://fhir.wales.nhs.uk/ValueSet/NHSWales-DataStandards-MaritalStatus'*
 
 The name of the ValueSet - specifically the name.value.element - shall be in the form:  

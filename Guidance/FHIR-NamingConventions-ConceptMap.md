@@ -3,15 +3,15 @@
 The following naming convention applies to ConceptMap resources. Please click [here](NamingConventions.md) for definitions of the naming segments refered to in this document.
 
 The filename of the ValueSet  shall be in the form:  
-**[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'ConceptMap-NHSWales-DataStandards-AdministrativeGender'*
 
 The logical id of the ConceptMap shall be in the form:  
-**[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'NHSWales-DataStandards-AdministrativeGender'*
 
 The URL of the ConceptMap shall be in the form:  
-**[base URL]/[ResourceType]/[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[base URL]/[ResourceType]/[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'https://fhir.nhs.uk/ConceptMap/ConceptMap-NHSWales-DataStandards-AdministrativeGender'*
 
 The name of the ConceptMap - specifically the name.value.element - shall be in the form:  

@@ -3,19 +3,19 @@
 The following naming convention applies to CodeSystem resources. Please click [here](NamingConventions.md) for definitions of the naming segments refered to in this document.
 
 The filename of the CodeSystem  shall be in the form:  
-**[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[ResourceType]-[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'CodeSystem-NHSWales-DataStandards-Ethnicity'*
 
 The logical id of the CodeSystem shall be in the form:  
-**[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'NHSWales-DataStandards-Ethnicity', 'NHSWales-WCRS-DocumentType'*
 
 The URL of the CodeSystem shall be in the form:  
-**[base URL]/[ResourceType]/[OrganisationName]-[BusinessName1]-[BusinessName1]**  
+**[base URL]/[ResourceType]/[OrganisationName]-[BusinessName1]-[BusinessName2]**  
 *e.g. 'https://fhir.wales.nhs.uk/CodeSystem/NHSWales-DataStandards-MaritalStatus'*
 
 The name of the CodeSystem - specifically the name.value.element - shall be in the form:  
-**[OrganisationName][BusinessName1][BusinessName1]**   
+**[OrganisationName][BusinessName1][BusinessName2]**   
 *e.g. 'NHSWalesDataStandardsEthnicity', 'NHSWalesDataStandardsGenderIdentity'*
 
 The title of the CodeSystem shall be in the form:  
