@@ -8,8 +8,8 @@ It will be neccessary, however, for NHS Wales to define its own standards for th
 
 The following naming convention is provided to ensure that nationally defined FHIR assets are named in a consistent manner, and shall be applied to the following FHIR resources:
 
-* StructureDefinition
-* CodeSystem
+* StructureDefinition (Profile and Extension)
+* [CodeSystem](NamingConventions-CodeSystem.md)
 * ValueSet
 * ConceptMap
 
@@ -20,6 +20,7 @@ The naming convention includes the naming segments listed below, which are defin
 * **BusinessName1**: The first business name of the CodeSystem. The code system MUST have at least one BusinessName segment, e.g. 'DataStandards', 'WCRS', WCCIS'. Where a CodeSystem may be used across several business domains, business names should reflect that.
 * **BusinessName2** The second business name of the ValueSet. The ValueSet MAY have a second BusinessName segment. Where there is a second BusinessName, each one MUST be separated by a hyphen (-) character e.g. 'DataStandards-Ethnicity', 'WCRS-DocumentType'.
 
+## Naming Conventions for CodeSystem, ValueSet and Profiles
 The filename of the FHIR resource shall be in the form:  
 **[Resource]-[OrganisationName]-[BusinessName1]-[BusinessName1]**  
 *e.g. 'CodeSystem-NHSWales-DataStandards-Ethnicity', 'ValueSet-NHSWales-WCRS-DocumentType'*
