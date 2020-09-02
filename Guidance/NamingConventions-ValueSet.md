@@ -22,7 +22,7 @@ The title of the ValueSet shall be in the form:
 **[Organisation Name] [Business Name 1] [Business Name 2]**   
 *e.g. 'NHS Wales Data Standards Ethnicity'*
 
-An example ValueSet resource used to define the NHS Wales data standard for communication of marital status is provided below:
+An example ValueSet resource used to define the NHS Wales data standard for communication of ethnicity is provided below:
 ```xml
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="NHSWales-DataStandards-Ethnicity"/>

@@ -22,7 +22,7 @@ The title of the ConceptMap shall be in the form:
 **[Resource Type] - [Organisation Name] [Business Name 1] [Business Name 2]**   
 *e.g. 'Concept Map - NHS Wales Data Standards Administrative Gender'*
 
-An example ConceptMap resource used to define the NHS Wales data standard for communication of marital status is provided below:
+An example ConceptMap resource used to map HL7 gender codes to NHS Wales data standards gender identity is provided below:
 ```xml
 <ConceptMap xmlns="http://hl7.org/fhir">
     <id value="NHSWales-DataStandards-AdministrativeGender" />
