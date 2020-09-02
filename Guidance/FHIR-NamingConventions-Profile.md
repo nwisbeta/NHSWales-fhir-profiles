@@ -42,7 +42,8 @@ An example showing metadata fields for an NHS Wales FHIR Profile is provided bel
 		</telecom>
 	</contact>
     <description value="Defines the Welsh Care Records Service constraints and extensions on the DocumentReference resource." />
-    <copyright value="&#169; 2020 NHS Wales Informatics Service."/><fhirVersion value="4.0.1" />
-	<!-- Definition goes here... -->
+    <copyright value="&#169; 2020 NHS Wales Informatics Service."/>
+    <fhirVersion value="4.0.1" />
+    <!-- Definition goes here... -->
 </StructureDefinition>
 ```
