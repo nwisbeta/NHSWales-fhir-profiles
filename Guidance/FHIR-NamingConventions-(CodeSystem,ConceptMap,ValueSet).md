@@ -36,13 +36,16 @@ The **filename** of the CodeSystem shall be in the form **[ResourceType]-DataSta
 * CodeSystem-DataStandardsCymru-Ethnicity
 * ConceptMap-DataStandardsCymru-AdministrativeGender
 
-An example CodeSystem resource used to define the NHS Wales data standard for communication of marital status is provided below:
+## Example CodeSystem
+
+An fully populated CodeSystem example is provided below:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsCymru-MaritalStatus"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
-		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>
 	<url value="https://fhir.standards.cymru/CodeSystem/MaritalStatus"/>	
 	<version value="1.0.0"/>
@@ -51,7 +54,7 @@ An example CodeSystem resource used to define the NHS Wales data standard for co
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2020-08-25T12:02:00+01:00"/>
-	<publisher value="NHS Wales Informatics Service"/>
+	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="Data Standards"/>	
 		<telecom>
