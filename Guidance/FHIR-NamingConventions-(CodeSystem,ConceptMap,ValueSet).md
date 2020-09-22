@@ -64,7 +64,7 @@ An fully populated CodeSystem example is provided below:
 		</telecom>
 	</contact>	
 	<description value="An indicator to identify the legal marital status of a person"/>
-	<copyright value="&#169; 2020 NHS Wales Informatics Service."/>
+	<copyright value="&#169; 2020 NHS Wales."/>
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>
