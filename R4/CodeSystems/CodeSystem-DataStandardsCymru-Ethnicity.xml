@@ -11,7 +11,7 @@
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2020-08-26T00:00:00+01:00"/>
-	<publisher value="NHS Wales Informatics Service"/>
+	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="Data Standards"/>	
 		<telecom>
@@ -21,7 +21,7 @@
 		</telecom>
 	</contact>	
 	<description value="The ethnicity of a person, as specified by the person, as per the Office of National Statistics (ONS) 2011 Census Categories"/>
-	<copyright value="&#169; 2020 NHS Wales Informatics Service."/>
+	<copyright value="&#169; 2020 NHS Wales."/>
 	<caseSensitive value="true"/>
 	<content value="complete"/>
 	<concept>
