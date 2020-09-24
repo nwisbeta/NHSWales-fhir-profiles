@@ -1,15 +1,15 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="NHSWales-DataStandards-Ethnicity"/>
+	<id value="DataStandardsCymru-Ethnicity"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
 		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
 	</extension>
-	<url value="https://fhir.wales.nhs.uk/ValueSet/NHSWales-DataStandards-Ethnicity"/>>
+	<url value="https://fhir.standards.cymru/ValueSet/Ethnicity"/>
 	<version value="1.0.1"/>
-    <name value="NHSWalesDataStandardsEthnicity"/>
-	<title value="NHS Wales Data Standards Ethnicity"/>
+    <name value="DataStandardsCymruEthnicity"/>
+	<title value="Data Standards Cymru Ethnicity"/>
 	<status value="draft"/>
-	<date value="2020-09-02T00:00:00+01:00"/>
-	<publisher value="NHS Wales Informatics Service"/>
+	<date value="2020-09-24T00:00:00+01:00"/>
+	<publisher value="NHS Wales"/>
 	<contact>
 		<name value="Data Standards"/>
 		<telecom>
@@ -19,10 +19,10 @@
 		</telecom>
 	</contact>
 	<description value="The ethnicity of a person, as specified by the person, as per the Office of National Statistics (ONS) 2011 Census Categories"/>
-	<copyright value="© 2030 NHS Wales Informatics Service."/>
+	<copyright value="© 2020 NHS Wales."/>
 	<compose>
 		<include>
-			<system value="https://fhir.wales.nhs.uk/CodeSystem/NHSWales-DataStandards-Ethnicity"/>
+			<system value="https://fhir.standards.cymru/CodeSystem/Ethnicity"/>
 		</include>
 	</compose>
 </ValueSet>

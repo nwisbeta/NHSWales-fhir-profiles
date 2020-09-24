@@ -1,12 +1,12 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
-    <id value="NHSWales-DataStandards-AdministrativeGender" />
-    <url value="https://fhir.nhs.uk/ConceptMap/ConceptMap-NHSWales-DataStandards-AdministrativeGender" />
+    <id value="DataStandardsCymru-AdministrativeGender" />
+    <url value="https://fhir.standards.cymru/ConceptMap/AdministrativeGender" />
     <version value="1.0.0" />
-    <name value="ConceptMapNHSWalesDataStandardsAdministrativeGender" />
-    <title value="Concept Map - NHS Wales Data Standards Administrative Gender" />
+    <name value="DataStandardsCymruAdministrativeGender" />
+    <title value="Data Standards Cymru AdministrativeGender" />
     <status value="draft" />
-    <date value="2020-08-26T00:00:00+01:00" />
-    <publisher value="NHS Wales Informatics Service"/>
+    <date value="2020-09-24T00:00:00+01:00" />
+    <publisher value="NHS Wales"/>
 	<contact>
 		<name value="Data Standards"/>	
 		<telecom>
@@ -15,13 +15,13 @@
 			<use value="work"/>
 		</telecom>
 	</contact>
-    <description value="A Concept Map from ValueSet Administrative Gender to NHS Wales Data Standards Gender Identity code to aid interpretation." />
-    <copyright value="&#169; 2020 NHS Wales Informatics Service."/>
+    <description value="A Concept Map from HL7 ValueSet Administrative Gender to Data Standards Cymru Gender Identity code to aid interpretation." />
+    <copyright value="&#169; 2020 NHS Wales."/>
     <sourceUri value="http://hl7.org/fhir/ValueSet/administrative-gender" />
-    <targetUri value="https://fhir.wales.nhs.uk/ValueSet/NHSWales-DataStandards-GenderIdentity" />
+    <targetUri value="https://fhir.standards.cymru/ValueSet/DataStandardsCymru-GenderIdentity" />
     <group>
         <source value="http://hl7.org/fhir/administrative-gender" />
-        <target value="https://fhir.wales.nhs.uk/CodeSystem/NHSWales-DataStandards-GenderIdentity" />
+        <target value="https://fhir.standards.cymru/CodeSystem/DataStandardsCymru-GenderIdentity" />
         <element>
             <code value="male" />
             <display value="Male" />

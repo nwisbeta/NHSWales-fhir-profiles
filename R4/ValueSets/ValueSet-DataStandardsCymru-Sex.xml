@@ -1,0 +1,29 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsCymru-Sex"/>
+	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
+		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
+	</extension>
+	<url value="https://fhir.standards.cymru/ValueSet/Sex"/>
+	<version value="1.0.1"/>
+    <name value="DataStandardsCymruSex"/>
+	<title value="Data Standards Cymru Sex"/>
+	<status value="draft"/>
+	<date value="2020-09-24T00:00:00+01:00"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="Sex at birth; determines how the individual would be treated clinically. A classification of the observed sex of a person, relating to the biological, physiological and physical characteristics that differentiate men and women, determined by endocrine influences.
+	Person sex is observed by a care professional, and is not self-stated."/>
+	<copyright value="© 2020 NHS Wales."/>
+	<compose>
+		<include>
+			<system value="https://fhir.standards.cymru/CodeSystem/Sex"/>
+		</include>
+	</compose>
+</ValueSet>
