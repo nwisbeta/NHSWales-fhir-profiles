@@ -1,0 +1,19 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-ABUHB-pasIdentifier"/> 
+  <name value="DataStandardsWalesABUHBpasIdentifier"/> 
+  <status value="draft"/> 
+  <kind value="identifier"/> 
+  <date value="2020-10-14"/> 
+  <publisher value="NHS Wales"/>
+  <responsible value="Aneurin Bevan University Health Board"/> 
+  <usage value="Internal PAS identifier for a patient"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.abuhb.nhs.wales/Id/pas-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+  <uniqueId> 
+    <type value="oid"/> 
+    <value value="2.16.840.1.113883.2.1.8.1.5.139"/>     
+  </uniqueId> 
+</NamingSystem> 
