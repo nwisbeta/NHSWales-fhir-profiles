@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsCymru-Ethnicity"/>
+	<id value="DataStandardsWales-Ethnicity"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
 		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>	
-	<url value="https://fhir.standards.cymru/CodeSystem/Ethnicity"/>
+	<url value="https://fhir.standards.wales/CodeSystem/Ethnicity"/>
 	<version value="1.0.0"/>
-	<name value="DataStandardsCymruEthnicity"/>
-	<title value="Data Standards Cymru Ethnicity"/>
+	<name value="DataStandardsWalesEthnicity"/>
+	<title value="Data Standards Wales Ethnicity"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2020-08-26T00:00:00+01:00"/>
