@@ -11,6 +11,17 @@
             </coding>
         </valueCodeableConcept>
     </extension>
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication">
+        <extension url="language">
+            <valueCodeableConcept>
+                <coding>
+                    <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage" />
+                    <code value="en" />
+                    <display value="English" />
+                </coding>
+            </valueCodeableConcept>
+        </extension>
+    </extension>    
     <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation">
         <valueCodeableConcept>
             <coding>
@@ -34,6 +45,10 @@
         <value value="9912003444" />
     </identifier>
     <identifier>
+        <system value="https://fhir.cavuhb.nhs.wales/Id/pas-identifier" />
+        <value value="E101067" />
+    </identifier>    
+    <identifier>
         <system value="https://fhir.sbuhb.nhs.wales/Id/pas-identifier" />
         <value value="A901067" />
     </identifier>
@@ -43,11 +58,11 @@
     </identifier>	
     <identifier>
         <system value="https://fhir.bcuhb.nhs.wales/Id/central-pas-identifier" />
-        <value value="9987889" />
+        <value value="0987889" />
     </identifier>
     <identifier>
         <system value="https://fhir.bcuhb.nhs.wales/Id/west-pas-identifier" />
-        <value value="T45689" />
+        <value value="W45689" />
     </identifier>	
     <name>
         <use value="official" />
