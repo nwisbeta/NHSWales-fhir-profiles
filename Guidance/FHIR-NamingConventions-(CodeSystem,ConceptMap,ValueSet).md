@@ -2,7 +2,7 @@
 ## Naming segments
 The naming conventions defined here are based on the following naming segments:
 
-**[base URL]:** the base URL  is https://fhir.standards.cymru/
+**[base URL]:** the base URL  is https://fhir.standards.wales/
 
 **[ResourceType]:** The FHIR resource type e.g. 'CodeSystem', 'ValueSet' or 'ConceptMap'.  
 
@@ -15,26 +15,26 @@ The following naming convention applies to FHIR CodeSystem, ConceptMap and Value
 
 The **URL** of the resource shall be in the form
 **[base URL]/[ResourceType]/[BusinessName]** e.g. 
-* https&#58;//fhir.standards.cymru/CodeSystem/Ethnicity
-* https&#58;//fhir.standards.cymru/ValueSet/GenderIdentity
-* https&#58;//fhir.standards.cymru/ConceptMap/AdministrativeGender
+* https&#58;//fhir.standards.wales/CodeSystem/Ethnicity
+* https&#58;//fhir.standards.wales/ValueSet/GenderIdentity
+* https&#58;//fhir.standards.wales/ConceptMap/AdministrativeGender
 
 
-The **logical id** of the CodeSystem shall be in the form **DataStandardsCymru-[BusinessName]** e.g.
-* DataStandardsCymru-Ethnicity,
-* DataStandardsCymru-MaritalStatus
+The **logical id** of the CodeSystem shall be in the form **DataStandardsWales-[BusinessName]** e.g.
+* DataStandardsWales-Ethnicity,
+* DataStandardsWales-MaritalStatus
 
-The **name** of the resource - specifically the name.value.element - shall be in the form **DataStandardsCymru[BusinessName]** e.g. 
-* DataStandardsCymruEthnicity
-* DataStandardsCymruMaritalStatus
+The **name** of the resource - specifically the name.value.element - shall be in the form **DataStandardsWales[BusinessName]** e.g. 
+* DataStandardsWalesEthnicity
+* DataStandardsWalesMaritalStatus
 
 The **title** of the resource shall follow the name.value.element, using title case e.g.
-* Data Standards Cymru Ethnicity
-* Data Standards Cymru Marital Status
+* Data Standards Wales Ethnicity
+* Data Standards Wales Marital Status
 
-The **filename** of the CodeSystem shall be in the form **[ResourceType]-DataStandardsCymru-[BusinessName]** e.g. 
-* CodeSystem-DataStandardsCymru-Ethnicity
-* ConceptMap-DataStandardsCymru-AdministrativeGender
+The **filename** of the CodeSystem shall be in the form **[ResourceType]-DataStandardsWales-[BusinessName]** e.g. 
+* CodeSystem-DataStandardsWales-Ethnicity
+* ConceptMap-DataStandardsWales-AdministrativeGender
 
 ## Example CodeSystem
 
@@ -43,14 +43,14 @@ An fully populated CodeSystem example is provided below:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsCymru-MaritalStatus"/>
+	<id value="DataStandardsWales-MaritalStatus"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
 		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20200622-DSCN%202020%2006-Core%20Reference%20Data-d2-2.pdf"/>
 	</extension>
-	<url value="https://fhir.standards.cymru/CodeSystem/MaritalStatus"/>	
+	<url value="https://fhir.standards.wales/CodeSystem/MaritalStatus"/>	
 	<version value="1.0.0"/>
-	<name value="DataStandardsCymruMaritalStatus"/>
-	<title value="Data Standards Cymru Marital Status"/>
+	<name value="DataStandardsWalesMaritalStatus"/>
+	<title value="Data Standards Wales Marital Status"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2020-08-25T12:02:00+01:00"/>
