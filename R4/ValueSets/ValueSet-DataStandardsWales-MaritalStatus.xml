@@ -22,7 +22,7 @@
 	<copyright value="© 2020 NHS Wales."/>
 	<compose>
 		<include>
-			<system value="https://fhir.standards.cymru/CodeSystem/MaritalStatus"/>
+			<system value="https://fhir.standards.wales/CodeSystem/MaritalStatus"/>
 		</include>
 	</compose>
 </ValueSet>
