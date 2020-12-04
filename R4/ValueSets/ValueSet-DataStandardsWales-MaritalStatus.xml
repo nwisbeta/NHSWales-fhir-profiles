@@ -1,12 +1,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsCymru-MaritalStatus"/>
+	<id value="DataStandardsWales-MaritalStatus"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/valueset-sourceReference">
 		<valueUri value="http://www.nwisinformationstandards.wales.nhs.uk/sitesplus/documents/299/20171222-DSCN%202017%2011-Core%20Ref%20Data%20Standards-v1.0.pdf"/>
 	</extension>
-	<url value="https://fhir.standards.cymru/ValueSet/MaritalStatus"/>
+	<url value="https://fhir.standards.wales/ValueSet/MaritalStatus"/>
 	<version value="1.0.1"/>
-    <name value="DataStandardsCymruMaritalStatus"/>
-	<title value="Data Standards Cymru Marital Status"/>
+    <name value="DataStandardsWalesMaritalStatus"/>
+	<title value="Data Standards Wales Marital Status"/>
 	<status value="draft"/>
 	<date value="2020-09-24T00:00:00+01:00"/>
 	<publisher value="NHS Wales"/>
