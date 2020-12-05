@@ -1,0 +1,29 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+	<id value="DataStandardsWales-WRDS-OrganizationRole"/>
+	<url value="https://fhir.standards.wales/ValueSet/WRDS-OrganizationRole"/>
+	<version value="1.0.1"/>
+    <name value="DataStandardsWalesWRDSOrganizationRole"/>
+	<title value="Data Standards WRDS Organization Role"/>
+	<status value="draft"/>
+	<experimental value="true" />
+	<date value="2020-12-04T00:00:00+01:00"/>
+	<publisher value="NHS Wales"/>
+	<contact>
+		<name value="Data Standards"/>
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+	<description value="A value set that identifies the role of the organization. This value set combines codes from the NHS Organization Data Service (ODS) with Wales specific codes"/>
+	<copyright value="© 2020 NHS Wales."/>
+	<compose>
+		<include>
+			<system value="https://fhir.standards.wales/CodeSystem/WRDS-OrganizationRole"/>
+		</include>
+		<include>
+			<system value="https://directory.spineservices.nhs.uk/STU3/CodeSystem/ODSAPI-OrganizationRole-1"/>
+		</include>
+	</compose>	
+</ValueSet>

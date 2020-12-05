@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="DataStandardsWales-WRDS-OrganizationRole"/>
+    <url value="https://fhir.standards.wales/CodeSystem/WRDS-OrganizationRole"/>	
+    <version value="1.0.0"/>
+    <name value="DataStandardsWalesWRDSOrgaizationRole"/>
+	<title value="Data Standards WRDS Orgaization Role"/>
+	<status value="draft"/>
+	<experimental value="true"/>
+	<date value="2020-12-04T00:00:00+01:00"/>
+    <publisher value="NHS Wales"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>	
+    <description value="A CodeSystem that identifies the role of the organization."/>
+    <copyright value="&#169; 2020 NHS Wales."/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="W1"/>
+        <display value="GP CLUSTER"/>
+    </concept>
+</CodeSystem>

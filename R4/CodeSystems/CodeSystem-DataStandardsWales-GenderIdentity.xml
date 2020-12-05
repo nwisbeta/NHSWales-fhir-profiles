@@ -8,8 +8,8 @@
     <version value="1.0.0"/>
     <name value="DataStandardsWalesGenderIdentity"/>
 	<title value="Data Standards Wales Gender Identity"/>
-	<status value="draft"/>
-	<experimental value="true"/>
+	<status value="active"/>
+	<experimental value="false"/>
 	<date value="2020-09-24T00:00:00+01:00"/>
     <publisher value="NHS Wales"/>
 	<contact>

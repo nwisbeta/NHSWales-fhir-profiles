@@ -1,0 +1,24 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-VNT-Canisc-Identifier"/> 
+  <name value="DataStandardsWalesVNTCaniscIdentifier"/> 
+  <status value="draft"/> 
+  <kind value="identifier"/> 
+  <date value="2020-04-12"/> 
+  <publisher value="NHS Wales"/>
+  <responsible value="Velindre NHS Trust"/> 
+  <usage value="This namespace indicates a Velindre NHS Trsust Canisc (PAS) patient identifier"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.vnt.nhs.wales/Id/canisc-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+  <uniqueId> 
+    <type value="oid"/> 
+    <value value="2.16.840.1.113883.2.1.8.1.5.182"/>     
+  </uniqueId>
+  <uniqueId> 
+    <type value="other"/> 
+    <value value="182"/>
+    <comment value="NHS Wales MPI Issuing Authority" />     
+  </uniqueId>   
+</NamingSystem> 
