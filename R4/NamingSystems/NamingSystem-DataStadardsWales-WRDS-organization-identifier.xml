@@ -5,7 +5,7 @@
   <kind value="identifier"/> 
   <date value="2020-04-12"/> 
   <publisher value="NHS Wales"/>
-  <responsible value="NHS Wales Informatic Service"/> 
+  <responsible value="NHS Wales Informatics Service"/> 
   <usage value="This namespace indicates a Welsh Reference Data Service (WRDS) Organization identifier"/> 
   <uniqueId> 
     <type value="uri"/> 

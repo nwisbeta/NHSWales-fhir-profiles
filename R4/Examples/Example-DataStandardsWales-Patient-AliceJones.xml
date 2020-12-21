@@ -10,18 +10,7 @@
                 <display value="Any White Background, including Welsh, English, Scottish, Northern Irish, British, Irish" />
             </coding>
         </valueCodeableConcept>
-    </extension>
-    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-NHSCommunication">
-        <extension url="language">
-            <valueCodeableConcept>
-                <coding>
-                    <system value="https://fhir.nhs.uk/R4/CodeSystem/UKCore-HumanLanguage" />
-                    <code value="en" />
-                    <display value="English" />
-                </coding>
-            </valueCodeableConcept>
-        </extension>
-    </extension>    
+    </extension>  
     <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-ReligiousAffiliation">
         <valueCodeableConcept>
             <coding>
