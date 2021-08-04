@@ -1,0 +1,80 @@
+<Encounter xmlns="http://hl7.org/fhir">
+    <id value="d44f01f0-d24a-3d10-91ea-9fabb353aea2"/>
+    <meta>
+       <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"/>
+    </meta>    
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-AdmissionMethod">
+       <valueCodeableConcept>
+          <coding>
+             <system value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-AdmissionMethod"/>
+             <code value="21"/>
+             <display value="A &amp; E or dental casualty department of the health care provider"/>
+          </coding>
+       </valueCodeableConcept>
+    </extension>
+    <identifier>
+       <system value="https://fhir.sbuhb.nhs.wales/Id/pas-encounter-identifier"/>
+       <value value="M999598337"/>
+    </identifier>
+    <status value="finished"/>
+    <class>
+       <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+       <code value="IMP"/>
+       <display value="inpatient encounter"/>
+    </class>
+    <type>
+       <coding>
+          <system value="http://terminology.hl7.org/CodeSystem/v2-0007"/>
+          <code value="E"/>
+          <display value="Emergency"/>
+       </coding>
+    </type>
+    <serviceType>
+       <coding>
+          <system value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-TreatmentSpecialty"/>
+          <code value="430"/>
+          <display value="Geriatric Medicine"/>
+       </coding>
+    </serviceType>
+    <subject>
+       <reference value="Patient/Example-DataStandardsWales-Patient-HaroldJames"/>
+    </subject>
+    <participant>
+       <type>
+          <coding>
+             <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+             <code value="CON"/>
+          </coding>
+          <text value="consultant"/>
+       </type>
+       <period>
+          <start value="2020-04-01T10:37:00Z"/>
+          <end value="2020-04-06T10:59:00Z"/>
+       </period>
+       <individual>
+          <reference value="Practitioner/Example-DataStandardsWales-Practitioner-Consultant"/>
+       </individual>
+    </participant>
+    <period>
+       <start value="2020-04-01T10:37:00Z"/>
+       <end value="2020-04-06T10:59:00Z"/>
+    </period>
+    <hospitalization>
+       <admitSource>
+          <coding>
+             <system value="https://fhir.wales.nhs.uk/R4/CodeSystem/NHSWales-SourceOfAdmission"/>
+             <code value="19"/>
+             <display value="Own Home"/>
+          </coding>
+       </admitSource>
+    </hospitalization>
+    <location>
+       <location>
+          <reference value="Location/Example-DataStandardsWales-Location-WardE(NPT)"/>
+       </location>
+       <period>
+          <start value="2020-04-01T10:37:00Z"/>
+          <end value="2020-04-06T10:59:00Z"/>
+       </period>
+    </location>
+ </Encounter>

@@ -1,0 +1,67 @@
+<Organization xmlns="http://hl7.org/fhir">
+	<id value="UKCore-Organization-7A2AG"/> <!-- for Demo ID -->
+	<meta>
+		<profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
+	</meta>
+	
+	<!-- Reference Location Resource -->
+	<extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-MainLocation">
+		<valueReference>
+			<reference value="Location/UKCore-Location-GlangwiliGeneralHospital"/>  <!-- replace with actual id -->
+		</valueReference>
+	</extension>	
+	
+	<!-- Active Period -->
+    <extension url="https://fhir.standards.wales/StructureDefinition/Extension-ActivePeriod">
+        <valuePeriod>
+            <start value="2003-04-01T00:00:00+01:00"/>
+        </valuePeriod>
+    </extension>
+	
+	<extension url="https://fhir.standards.wales/StructureDefinition/Extension-HospitalClassification">		
+		<valueCoding>	<!-- Confirm correct type -->	
+			<system value="https://fhir.standards.wales/ValueSet/HospitalClassification"/>
+			<value value="E"/>
+		</valueCoding>
+	</extension>	
+	
+	<extension url="https://fhir.standards.wales/StructureDefinition/Extension-ODSAPI-OrganisationRole">		
+		<valueCoding>	<!-- Confirm correct type -->	
+			<system value="https://fhir.standards.wales/ValueSet/ODSAPI-OrganizationRole"/>
+			<value value="E"/>
+		</valueCoding>
+	</extension>	
+	
+	<identifier>
+		<use value="official"/>
+		<system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+		<value value="7A2AG"/>
+	</identifier>
+	
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/wrds-organisation-identifier"/>
+		<value value="7A2AG"/>
+	</identifier>
+	
+	<name value="Glangwili General Hospital"/>
+	<telecom>
+		<system value="phone"/>
+		<value value="09819283712"/> <!-- ODS -->
+	</telecom>
+	<address>
+		<line value="Dolgwili Road"/>
+		<line value="Glangwili"/>
+		<line value="Carmarthen"/>
+		<line value="Dyfed"/>
+		<city value="-"/>
+		<postalCode value="SA31 2AF"/>
+		<country value="Wales"/>
+	</address>
+	
+	<partOf>
+        <reference value="Organization/UKCore-Organization-7A2" /> <!-- replace with actual id -->
+        <display value="Hywel Dda University Local Health Board" />
+    </partOf>
+	
+	<active>true</active>
+</Organization>

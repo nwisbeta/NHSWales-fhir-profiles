@@ -1,0 +1,14 @@
+{
+  "name": "R",
+  "version": "0.1.0",
+  "description": "Put a description here",
+  "author": null,
+  "dependencies": {
+    "UKCore.R4.STU.02.00.00": "2.0.0"
+  },
+  "fhirVersions": [
+    "4.0.0"
+  ],
+  "devDependencies": null,
+  "canonicals": null
+}

@@ -1,0 +1,31 @@
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Organization-HDUHB" />
+    <meta>
+        <versionId value="1" />
+        <lastUpdated value="2021-06-03T10:50:00.000Z" />
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
+    </meta>
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EffectivePeriod">
+        <valuePeriod>
+            <start value="2009-10-01" />
+        </valuePeriod>
+    </extension>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+        <value value="7A2" />
+    </identifier>
+    <active value="true" />
+    <name value="Hywel Dda University Local Health Board" />
+    <telecom>
+        <system value="phone" />
+        <value value="01437 771220" />
+    </telecom>
+    <address>
+        <line value="Ystwyth Building" />
+        <line value="Hafan Derwen" />
+        <line value="St Davids Park" />
+        <line value="Jobswell Road" />
+        <city value="Carmarthen" />
+        <postalCode value="SA31 3BB" />        
+    </address>
+</Organization>

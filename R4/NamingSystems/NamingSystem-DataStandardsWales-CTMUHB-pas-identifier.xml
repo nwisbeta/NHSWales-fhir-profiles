@@ -1,12 +1,13 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-CTMUHB-PAS-Identifier"/> 
-  <name value="DataStandardsWalesCTMUHBPasIdentifier"/> 
-  <status value="draft"/> 
+  <name value="CTMUHB PAS Identifier"/> 
+  <status value="active"/> 
   <kind value="identifier"/> 
   <date value="2020-04-12"/> 
   <publisher value="NHS Wales"/>
   <responsible value="Cwm Taf Morgannwg University Health Board"/> 
-  <usage value="This namespace indicates a Cwm Taf Morgannwg University Health Board PAS patient identifier"/> 
+  <description value="This namespace indicates a Cwm Taf Morgannwg University Health Board PAS patient identifier"/> 
+  <usage value="Patient identity"/> 
   <uniqueId> 
     <type value="uri"/> 
     <value value="https://fhir.ctmuhb.nhs.wales/Id/pas-identifier"/> 
@@ -15,10 +16,5 @@
   <uniqueId> 
     <type value="oid"/> 
     <value value="2.16.840.1.113883.2.1.8.1.5.126"/>     
-  </uniqueId>
-  <uniqueId> 
-    <type value="other"/> 
-    <value value="126"/>
-    <comment value="NHS Wales MPI Issuing Authority" />     
-  </uniqueId>   
+  </uniqueId>  
 </NamingSystem> 

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="33"/>
+    <meta>
+        <versionId value="2"/>
+        <lastUpdated value="2020-11-28T22:09:33.265Z"/>
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
+    </meta>
+    <extension url="https://fhir.nhs.wales/StructureDefinition/Extension-ActivePeriod">
+        <valuePeriod>
+            <start value="2003-04-01T00:00:00+01:00"/>
+            <end value="2009-09-30T00:00:00+01:00"/>
+        </valuePeriod>
+    </extension>
+    <identifier>
+        <use value="official"/>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code"/>
+        <value value="6A1"/>
+    </identifier>
+    <identifier>
+        <use value="official"/>
+        <system value="https://fhir.nhs.wales/Id/wrds-organization-identifier"/>
+        <value value="6A1"/>
+    </identifier>
+    <active value="false"/>
+    <name value="Monmouthshire LHB"/>
+	<!-- Telecom working for 7A* -->
+    <address>
+        <line value="SINGLETON COURT BUSINESS CENTRE"/>
+        <line value="WONASTOW ROAD"/>
+        <city value="MONMOUTH"/>
+        <district value="GWENT"/>
+        <postalCode value="NP25 5JA"/>
+        <country value="WALES"/>
+    </address>
+</Organization>

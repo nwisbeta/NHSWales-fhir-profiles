@@ -1,9 +1,9 @@
 <ValueSet xmlns="http://hl7.org/fhir">
 	<id value="DataStandardsWales-WRDS-HospitalClassification"/>
-	<url value="https://fhir.standards.wales/ValueSet/WRDS-HospitalClassification"/>
+	<url value="https://fhir.standards.wales/ValueSet/HospitalClassification"/>
 	<version value="1.0.1"/>
-    <name value="DataStandardsWalesWRDSHospitalClassification"/>
-	<title value="Data Standards WRDS Hospital Classification"/>
+    <name value="DataStandardsWalesHospitalClassification"/>
+	<title value="Data Standards Hospital Classification"/>
 	<status value="draft"/>
 	<experimental value="true" />
 	<date value="2020-12-04T00:00:00+01:00"/>
@@ -20,7 +20,7 @@
 	<copyright value="© 2020 NHS Wales."/>
 	<compose>
 		<include>
-			<system value="https://fhir.standards.wales/CodeSystem/WRDS-HospitalClassification"/>
+			<system value="https://fhir.standards.wales/CodeSystem/HospitalClassification"/>
 		</include>
 	</compose>
 </ValueSet>

@@ -1,0 +1,25 @@
+<Practitioner xmlns="http://hl7.org/fhir">
+	<id value="Example-DataStandardsWales-Practitioner-Physiotherapist" />
+	<meta>
+		<profile value="https://fhir.nhs.uk/StructureDefinition/UKCore-Practitioner" />
+	</meta>
+	<identifier>
+		<system value="https://fhir.nhs.wales/Id/nadex-identifier" />
+		<value value="ph234567" />
+	</identifier>
+	<identifier>
+		<system value="https://fhir.hl7.org.uk/Id/hcpc-number" />
+		<value value="PH12345" />
+	</identifier>
+	<name>
+		<family value="Wickins" />
+		<given value="Philip" />
+		<prefix value="Mr" />
+	</name>
+	<telecom>
+		<system value="phone" />
+		<value value="01446 111223" />
+		<use value="work" />
+	</telecom>
+	<gender value="male" />
+</Practitioner>

@@ -101,12 +101,28 @@
 		<display value="Accident &amp; Emergency"/>
 	</concept>
 	<concept>
+		<code value="191"/>
+		<display value="Pain Management"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
 		<code value="190"/>
 		<display value="Anaesthetics"/>
 	</concept>
 	<concept>
 		<code value="192"/>
 		<display value="Critical Care Medicine"/>
+	</concept>
+	<concept>
+		<code value="199"/>
+		<display value="Non-UK provider; specialty function not know, treatment mainly surgical (only applicable for overseas providers)"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
 	</concept>
 	<concept>
 		<code value="300"/>
@@ -139,6 +155,14 @@
 	<concept>
 		<code value="311"/>
 		<display value="Clinical Genetics"/>
+	</concept>
+	<concept>
+		<code value="312"/>
+		<display value="Clinical Cytogenetics and Molecular Genetics"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
 	</concept>
 	<concept>
 		<code value="313"/>
@@ -237,6 +261,14 @@
 		<display value="Medical Ophthalmology"/>
 	</concept>
 	<concept>
+		<code value="499"/>
+		<display value="Non-UK provider; specialty function not known, treatment mainly medical (only applicable for overseas providers)"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
 		<code value="500"/>
 		<display value="Obstetrics And Gynaecology"/>
 	</concept>
@@ -253,6 +285,22 @@
 		<display value="Community Sexual And Reproductive Health"/>
 	</concept>
 	<concept>
+		<code value="510"/>
+		<display value="Obstetrics - AN (outpatients)"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
+		<code value="520"/>
+		<display value="Obstetrics - PN (outpatients)"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
 		<code value="560"/>
 		<display value="Midwife Episode"/>
 	</concept>
@@ -265,6 +313,22 @@
 		<display value="General Dental Practice"/>
 	</concept>
 	<concept>
+		<code value="610"/>
+		<display value="GP Maternity"/>		
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
+		<code value="620"/>
+		<display value="GP Other"/>		
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
 		<code value="700"/>
 		<display value="Learning Disability"/>
 	</concept>
@@ -275,5 +339,105 @@
 	<concept>
 		<code value="711"/>
 		<display value="Child &amp; Adolescent Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="712"/>
+		<display value="Forensic Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="713"/>
+		<display value="Pyschotherapy"/>
+	</concept>
+	<concept>
+		<code value="715"/>
+		<display value="Old Age Psychiatry"/>
+	</concept>
+	<concept>
+		<code value="800"/>
+		<display value="Clinical Oncology (Previously Radiotherapy)"/>
+	</concept>
+	<concept>
+		<code value="810"/>
+		<display value="Radiology"/>
+	</concept>
+	<concept>
+		<code value="820"/>
+		<display value="General Pathology"/>
+	</concept>
+	<concept>
+		<code value="821"/>
+		<display value="Blood Transfusion"/>
+	</concept>
+	<concept>
+		<code value="822"/>
+		<display value="Chemical Pathology"/>
+	</concept>
+	<concept>
+		<code value="823"/>
+		<display value="Haematology"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
+	</concept>
+	<concept>
+		<code value="824"/>
+		<display value="Histopathology"/>
+	</concept>
+	<concept>
+		<code value="830"/>
+		<display value="Immunopathology"/>
+	</concept>
+	<concept>
+		<code value="831"/>
+		<display value="Medical Microbiology"/>
+	</concept>
+	<concept>
+		<code value="832"/>
+		<display value="Neuropathology"/>
+	</concept>
+	<concept>
+		<code value="833"/>
+		<display value="Medical Microbiology (Also Known As Microbiology And Bacteriology)"/>
+	</concept>
+	<concept>
+		<code value="834"/>
+		<display value="Medical Virology"/>
+	</concept>
+	<concept>
+		<code value="900"/>
+		<display value="Community Medicine"/>
+	</concept>
+	<concept>
+		<code value="901"/>
+		<display value="Occupational Medicine"/>
+	</concept>
+	<concept>
+		<code value="902"/>
+		<display value="Community Health Services Dental"/>
+	</concept>
+	<concept>
+		<code value="903"/>
+		<display value="Public Health Medicine"/>
+	</concept>
+	<concept>
+		<code value="904"/>
+		<display value="Public Health Dental"/>
+	</concept>
+	<concept>
+		<code value="950"/>
+		<display value="Nursing Episode"/>
+	</concept>
+	<concept>
+		<code value="960"/>
+		<display value="Allied Health Professional Episode"/>
+	</concept>
+	<concept>
+		<code value="990"/>
+		<display value="Joint Consultant Clinics"/>
+		<property>
+			<code value="deprecated" />
+			<valueDateTime value="2015-03-31" />
+		</property>
 	</concept>
 </CodeSystem>

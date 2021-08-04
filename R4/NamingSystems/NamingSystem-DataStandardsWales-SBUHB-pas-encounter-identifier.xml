@@ -1,0 +1,16 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-SBUHB-PAS-encounter-identifier"/> 
+  <name value="SBUHB PAS Encounter Identifier"/> 
+  <status value="draft"/> 
+  <kind value="identifier"/> 
+  <date value="2020-04-12"/> 
+  <publisher value="NHS Wales"/>
+  <responsible value="Swansea Bay University Health Board"/> 
+  <description value="This namespace indicates a Swansea Bay University Health Board PAS visit number"/>
+  <usage value="Encounter identity"/> 
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.sbuhb.nhs.wales/Id/pas-encounter-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId> 
+</NamingSystem> 

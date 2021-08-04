@@ -1,0 +1,36 @@
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Organization-NPT" />
+    <meta>
+        <versionId value="1" />
+        <lastUpdated value="2021-06-03T11:47:00.000Z" />
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
+    </meta>
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EffectivePeriod">
+        <valuePeriod>
+            <start value="2009-10-01" />
+        </valuePeriod>
+    </extension>
+    <extension url="https://fhir.standards.wales/StructureDefinition/Extension-HospitalClassification">
+        <valueCoding>
+            <system value="https://fhir.standards.wales/CodeSystem/HospitalClassification" />
+            <code value="A" />
+            <display value="Acute hospital" />
+        </valueCoding>
+    </extension>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+        <value value="7A2CJ" />
+    </identifier>
+    <active value="true" />
+    <name value="Neath Port Talbot Hospital" />
+    <address>
+        <line value="Baglan Way" />
+        <city value="Port Talbot" />
+        <district value="West Glamorgan" />
+        <postalCode value="SA12 7BX" />
+    </address>
+    <partOf>
+        <reference value="Organization/Example-DataStandardsWales-Organization-SwanseaBay" />
+        <display value="Swansea Bay University Local Health Board" />
+    </partOf>
+</Organization>

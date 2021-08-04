@@ -1,5 +1,5 @@
 <Patient xmlns="http://hl7.org/fhir">
-    <id value="Example-DataStandardsWales-Patient-AliceJones" />
+    <id value="Example-DataStandardsWales-Patient-HaroldJames" />
     <meta>
         <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient" />
     </meta>
@@ -16,8 +16,8 @@
         <valueCodeableConcept>
             <coding>
                 <system value="http://snomed.info/sct" />
-                <code value="368131000000106" />
-                <display value="Church in Wales, follower of religion (person)" />
+                <code value="160540005" />
+                <display value="Roman Catholic, follower of religion (person)" />
             </coding>
         </valueCodeableConcept>
     </extension>
@@ -32,42 +32,29 @@
             </valueCodeableConcept>
         </extension>
         <system value="https://fhir.nhs.uk/Id/nhs-number" />
-        <value value="9912003444" />
-    </identifier>
-    <identifier>
-        <system value="https://fhir.cavuhb.nhs.wales/Id/pas-identifier" />
-        <value value="E101067" />
-    </identifier>    
+        <value value="3795624165" />
+    </identifier> 
     <identifier>
         <system value="https://fhir.sbuhb.nhs.wales/Id/pas-identifier" />
-        <value value="A901067" />
+        <value value="E100054" />
     </identifier>
-    <identifier>
-        <system value="https://fhir.abuhb.nhs.wales/Id/pas-identifier" />
-        <value value="E5779097" />
-    </identifier>	
-    <identifier>
-        <system value="https://fhir.bcuhb.nhs.wales/Id/central-pas-identifier" />
-        <value value="0987889" />
-    </identifier>
-    <identifier>
-        <system value="https://fhir.bcuhb.nhs.wales/Id/west-pas-identifier" />
-        <value value="W45689" />
-    </identifier>	
     <name>
         <use value="official" />
-        <family value="Jones" />
-        <given value="Alice" />
+        <family value="Harold" />
+        <given value="James" />
+        <prefix value="Mr" />
     </name>
     <telecom>
         <system value="phone" />
         <value value="01446231234" />
     </telecom>
-    <gender value="female" />
-    <birthDate value="1980-09-13" />
+    <gender value="male" />
+    <birthDate value="1925-10-10" />
     <address>
-        <line value="14 Western Way" />
-        <line value="BARRY" />
-        <postalCode value="CF62 9AZ" />
-    </address>
+        <line value="36 Ely Street"/>
+        <line value="Bettws"/>
+        <city value="Carmarthenshire"/>
+        <district value="Carmarthen"/>
+        <postalCode value="SA31 4EL"/>        
+     </address>
 </Patient>

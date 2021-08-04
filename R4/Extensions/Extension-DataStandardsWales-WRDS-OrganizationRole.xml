@@ -4,7 +4,7 @@
   <version value="1.0.0" />
   <name value="ExtensionDataStandardsWalesWRDSOrganizationRole" />
   <title value="Extension Data Standards Wales WRDS Organization Role" />
-  <status value="draft" />
+  <status value="retired" />
   <experimental value="true" />
   <date value="2020-12-05" />
   <publisher value="NHS Wales" />

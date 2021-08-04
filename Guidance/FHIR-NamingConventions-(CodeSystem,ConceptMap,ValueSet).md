@@ -1,4 +1,4 @@
-# NHS Wales Naming Conventions for FHIR CodeSystem, ValueSet and ConceptMap Resources
+# Naming Conventions for CodeSystem, ValueSet and ConceptMap Resources
 ## Naming segments
 The naming conventions defined here are based on the following naming segments:
 

@@ -1,0 +1,20 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+  <id value="DataStandardsWales-SBUHB-PAS-Location-Identifier"/> 
+  <name value="SBUHB PAS Location Identifier"/> 
+  <status value="draft"/> 
+  <kind value="identifier"/> 
+  <date value="2020-04-12"/> 
+  <publisher value="NHS Wales"/>
+  <responsible value="Swansea Bay University Health Board"/> 
+  <description value="This namespace indicates a Swansea Bay University Health Board PAS location identifier"/> 
+  <usage value="Location identity (identifier from PAS)"/>
+  <uniqueId> 
+    <type value="uri"/> 
+    <value value="https://fhir.sbuhb.nhs.wales/Id/pas-location-identifier"/> 
+    <preferred value="true"/> 
+  </uniqueId>
+  <uniqueId> 
+    <type value="oid"/> 
+    <value value="2.16.840.1.113883.2.1.8.1.5.108"/>
+  </uniqueId> 
+</NamingSystem> 

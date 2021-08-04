@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-WRDS-HospitalClassification"/>
-	<url value="https://fhir.standards.wales/CodeSystem/WRDS-HospitalClassification"/>
+	<id value="DataStandardsWales-HospitalClassification"/>
+	<url value="https://fhir.standards.wales/CodeSystem/HospitalClassification"/>
 	<version value="1.0.0"/>
-	<name value="DataStandardsWalesWRDSHospitalClassification"/>
-	<title value="Data Standards Wales WRDS Hospital Classification"/>
+	<name value="DataStandardsWalesHospitalClassification"/>
+	<title value="Data Standards Wales Hospital Classification"/>
 	<status value="draft"/>
 	<experimental value="true"/>
 	<date value="2020-12-04T00:00:00+01:00"/>
@@ -33,6 +33,10 @@
 		<code value="D"/>
 		<display value="Specialist Acute Hospital"/>
 	</concept>
+	<concept>
+		<code value="E"/>
+		<display value="Community Hospital"/>
+	</concept>	
 	<concept>
 		<code value="G"/>
 		<display value="Community (Geriatric) hospital"/>

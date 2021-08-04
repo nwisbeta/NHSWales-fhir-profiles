@@ -1,12 +1,13 @@
 <NamingSystem xmlns="http://hl7.org/fhir">
   <id value="DataStandardsWales-VNT-Canisc-Identifier"/> 
-  <name value="DataStandardsWalesVNTCaniscIdentifier"/> 
-  <status value="draft"/> 
+  <name value="VNT Canisc Identifier"/> 
+  <status value="active"/> 
   <kind value="identifier"/> 
   <date value="2020-04-12"/> 
   <publisher value="NHS Wales"/>
   <responsible value="Velindre NHS Trust"/> 
-  <usage value="This namespace indicates a Velindre NHS Trsust Canisc (PAS) patient identifier"/> 
+  <description value="This namespace indicates a Velindre NHS Trsust Canisc (PAS) patient identifier"/> 
+  <usage value="Patient Identity"/>
   <uniqueId> 
     <type value="uri"/> 
     <value value="https://fhir.vnt.nhs.wales/Id/canisc-identifier"/> 

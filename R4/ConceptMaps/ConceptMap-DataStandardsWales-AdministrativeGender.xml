@@ -1,5 +1,5 @@
 <ConceptMap xmlns="http://hl7.org/fhir">
-    <id value="DataStandardsWales-AdministrativeGender" />
+    <id value="ConceptMap-DataStandardsWales-AdministrativeGender" />
     <url value="https://fhir.standards.wales/ConceptMap/AdministrativeGender" />
     <version value="1.0.0" />
     <name value="DataStandardsWalesAdministrativeGender" />
@@ -47,7 +47,7 @@
                 <code value="N" />
                 <display value="Non-binary" />
                 <equivalence value="inexact" />
-				<comment value="Implementers should be careful when using these mappings operationally" />
+				<comment value="This mapping is inexact. Implementers should be careful when using these mappings operationally" />
             </target>
         </element>
         <element>

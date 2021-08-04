@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <StructureDefinition xmlns="http://hl7.org/fhir">
-  <id value="Extension-DataStandardsWales-WRDS-HospitalClassification" />
-  <url value="https://fhir.standards.wales/StructureDefinition/Extension-WRDS-HospitalClassification" />
+  <id value="Extension-DataStandardsWales-HospitalClassification" />
+  <url value="https://fhir.standards.wales/StructureDefinition/Extension-HospitalClassification" />
   <version value="1.0.0" />
-  <name value="ExtensionDataStandardsWalesWRDSHospitalClassification" />
-  <title value="Extension Data Standards Wales WRDS Hospital Classification" />
+  <name value="ExtensionDataStandardsWalesHospitalClassification" />
+  <title value="Extension Data Standards Wales Hospital Classification" />
   <status value="draft" />
   <experimental value="true" />
   <date value="2020-12-04" />
@@ -44,7 +44,7 @@
     </element>
     <element id="Extension.value[x]">
       <path value="Extension.value[x]" />
-      <short value="The WRDS hospital classification code" />
+      <short value="The hospital classification code" />
       <definition value="The hospital classification code as maintained by the Welsh Reference Data Service (WRDS)" />
       <min value="1" />
       <type>
@@ -52,8 +52,8 @@
       </type>
       <binding>
         <strength value="required" />
-        <description value="The WRDS classification of a hospital" />
-        <valueSet value="https://fhir.standards.wales/ValueSet/WRDS-HospitalClassification" />
+        <description value="The classification of a hospital" />
+        <valueSet value="https://fhir.standards.wales/ValueSet/HospitalClassification" />
       </binding>
     </element>
   </differential>

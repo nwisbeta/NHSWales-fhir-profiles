@@ -1,0 +1,102 @@
+<ConceptMap xmlns="http://hl7.org/fhir">
+    <id value="ConceptMap-DataStandardsWales-MaritalStatus" />
+    <url value="https://fhir.standards.wales/ConceptMap/MaritalStatus" />
+    <version value="1.0.0" />
+    <name value="DataStandardsWalesMaritalStatus" />
+    <title value="Data Standards Wales Marital Status" />
+    <status value="draft" />
+    <date value="2021-01-05T16:41:00+00:00" />
+    <publisher value="NHS Wales"/>
+	<contact>
+		<name value="Data Standards"/>	
+		<telecom>
+			<system value="email"/>
+			<value value="data.standards@wales.nhs.uk"/>
+			<use value="work"/>
+		</telecom>
+	</contact>
+    <description value="A Concept Map from HL7 ValueSet Marital Status to Data Standards Wales Marital Status to aid interpretation." />
+    <copyright value="&#169; 2020 NHS Wales."/>
+    <sourceUri value="http://hl7.org/fhir/ValueSet/marital-status" />
+    <targetUri value="https://fhir.standards.wales/ValueSet/MaritalStatus" />
+    <group>
+        <source value="http://terminology.hl7.org/CodeSystem/v3-MaritalStatus" />
+        <target value="https://fhir.standards.wales/CodeSystem/MaritalStatus" />
+        <element>
+            <code value="D" />
+            <display value="Divorced" />
+            <target>
+                <code value="31" />
+                <display value="Divorced" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+        <element>
+            <code value="L" />
+            <display value="Legally Separated" />
+            <target>
+                <code value="51" />
+                <display value="Separated" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+        <element>
+            <code value="M" />
+            <display value="Married" />
+            <target>
+                <code value="21" />
+                <display value="Married" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+        <element>
+            <code value="S" />
+            <display value="Never Married" />
+            <target>
+                <code value="11" />
+                <display value="Single" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+        <element>
+            <code value="T" />
+            <display value="Domestic partner" />
+            <target>
+                <code value="12" />
+                <display value="Cohabiting" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+        <element>
+            <code value="U" />
+            <display value="unmarried" />
+            <target>
+                <code value="11" />
+                <display value="Single" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>                
+        <element>
+            <code value="W" />
+            <display value="Widowed" />
+            <target>
+                <code value="41" />
+                <display value="Widowed" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+    </group>
+    <group>
+        <source value="http://terminology.hl7.org/CodeSystem/v3-NullFlavor" />
+        <target value="https://fhir.standards.wales/CodeSystem/MaritalStatus" />
+        <element>
+            <code value="UNK" />
+            <display value="unknown" />
+            <target>
+                <code value="91" />
+                <display value="Not disclosed or unknown" />
+                <equivalence value="equivalent" />
+            </target>
+        </element>
+    </group>
+</ConceptMap>

@@ -1,0 +1,30 @@
+<Organization xmlns="http://hl7.org/fhir">
+    <id value="Example-DataStandardsWales-Organization-SBUHB" />
+    <meta>
+        <versionId value="1" />
+        <lastUpdated value="2021-06-03T10:50:00.000Z" />
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization" />
+    </meta>
+    <extension url="https://fhir.nhs.uk/R4/StructureDefinition/Extension-UKCore-EffectivePeriod">
+        <valuePeriod>
+            <start value="2009-10-01" />
+        </valuePeriod>
+    </extension>
+    <identifier>
+        <system value="https://fhir.nhs.uk/Id/ods-organization-code" />
+        <value value="7A3" />
+    </identifier>
+    <active value="true" />
+    <name value="Swansea Bay University Local Health Board" />
+    <telecom>
+        <system value="phone" />
+        <value value="01639 683670" />
+    </telecom>
+    <address>
+        <line value="One Talbot Gateway, Seaway Drive" />
+        <line value="Hafan Seaway Parade Industrial Estate" />
+        <line value="Baglan" />        
+        <city value="Port Talbot" />
+        <postalCode value="SA12 7BR" />        
+    </address>
+</Organization>
