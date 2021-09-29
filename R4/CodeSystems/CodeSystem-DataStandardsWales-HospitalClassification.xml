@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-HospitalClassification"/>
+	<id value="CodeSystem-DataStandardsWales-HospitalClassification"/>
 	<url value="https://fhir.standards.wales/CodeSystem/HospitalClassification"/>
 	<version value="1.0.0"/>
 	<name value="DataStandardsWalesHospitalClassification"/>

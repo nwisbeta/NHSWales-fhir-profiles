@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeSystem xmlns="http://hl7.org/fhir">
-	<id value="DataStandardsWales-MainSpecialty"/>
+	<id value="CodeSystem-DataStandardsWales-MainSpecialty"/>
 	<extension url="http://hl7.org/fhir/StructureDefinition/codesystem-sourceReference">
 		<valueUri value="http://www.datadictionary.wales.nhs.uk/#!WordDocuments/mainspecialtyconsultant.htm"/>
 	</extension>
