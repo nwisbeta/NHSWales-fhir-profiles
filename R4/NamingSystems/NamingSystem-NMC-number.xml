@@ -1,0 +1,23 @@
+<NamingSystem xmlns="http://hl7.org/fhir">
+   <id value="NamingSystem-NMC-number"/>
+   <name value="NMC Number"/>
+   <status value="draft"/>
+   <kind value="identifier"/>
+   <date value="2021-11-01"/>
+   <publisher value="The Nursing and Midwifery Council "/>
+   <contact>
+      <name value="The Nursing and Midwifery Council"/>
+      <telecom>
+         <system value="url"/>
+         <value value="https://www.nmc.org.uk/"/>         
+      </telecom>
+   </contact>
+   <responsible value="HL7 UK"/>
+   <description value="Nursing and Midwifery Council registration number"/>
+   <usage value="An NMC number (or nurse pin number) is a code that uniquely identifies a nurse on the Nursing and Midwifery Council Register"/>
+   <uniqueId>
+      <type value="uri"/>
+      <value value="https://fhir.hl7.org.uk/Id/nmc-number"/>
+      <preferred value="true"/>
+   </uniqueId>   
+</NamingSystem>

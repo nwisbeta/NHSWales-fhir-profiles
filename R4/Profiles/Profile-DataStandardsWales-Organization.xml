@@ -41,6 +41,7 @@
         </discriminator>
         <rules value="open" />
       </slicing>
+      <min value="0" />
     </element>
     <element id="Organization.extension:hopitalClassification">
       <path value="Organization.extension" />
@@ -49,7 +50,6 @@
       <definition value="An extension to record the classification of a hospital as recorded by the Welsh Reference Data Service" />
       <comment value="This extension only applies to Wales Organizations that are hospitals" />
       <min value="0" />
-      <max value="1" />
       <type>
         <code value="Extension" />
         <profile value="https://fhir.standards.wales/StructureDefinition/Extension-HospitalClassification" />

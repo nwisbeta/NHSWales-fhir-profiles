@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.standards.wales/StructureDefinition/Patient" />
+  <name value="DataStandardsWalesPatient" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="Patient" />
+  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="Patient.generalPractitioner">
+      <path value="Patient.generalPractitioner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.standards.wales/StructureDefinition/Organization" />
+      </type>
+    </element>
+    <element id="Patient.managingOrganization">
+      <path value="Patient.managingOrganization" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.standards.wales/StructureDefinition/Organization" />
+      </type>
+    </element>
+  </differential>
+</StructureDefinition>

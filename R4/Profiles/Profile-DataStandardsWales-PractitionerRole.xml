@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StructureDefinition xmlns="http://hl7.org/fhir">
+  <url value="https://fhir.standards.wales/StructureDefinition/PractitionerRole" />
+  <name value="DataStandardsWalesPractitionerRole" />
+  <status value="draft" />
+  <fhirVersion value="4.0.1" />
+  <kind value="resource" />
+  <abstract value="false" />
+  <type value="PractitionerRole" />
+  <baseDefinition value="https://fhir.hl7.org.uk/StructureDefinition/UKCore-PractitionerRole" />
+  <derivation value="constraint" />
+  <differential>
+    <element id="PractitionerRole.practitioner">
+      <path value="PractitionerRole.practitioner" />
+      <type>
+        <code value="Reference" />
+        <targetProfile value="https://fhir.standards.wales/StructureDefinition/Practitioner" />
+      </type>
+    </element>
+    <element id="PractitionerRole.specialty">
+      <path value="PractitionerRole.specialty" />
+      <short value="A unique code identifying each Main Specialty designated by Royal Colleges" />
+      <definition value="A unique code identifying each Main Specialty designated by Royal Colleges" />
+      <binding>
+        <strength value="required" />
+        <valueSet value="https://fhir.standards.wales/ValueSet/MainSpecialty" />
+      </binding>
+    </element>
+  </differential>
+</StructureDefinition>
